@@ -462,7 +462,7 @@
     footer {
         background-color: #222f51;
         color: white;
-        padding: 3%;
+        padding: 3% 3% 0%;
     }
     /*** BLOCK4 ***/
     
@@ -583,9 +583,4 @@
     
     .C_et_D {
         margin-left: 1%;
-        justify-content: center;
     }
-    
-    .C_et_D .copyright {}
-    
-    .C_et_D .droit {}
