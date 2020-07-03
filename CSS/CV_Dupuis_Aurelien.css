@@ -253,7 +253,7 @@ hr .avant {
 }
 
 
-/*********************A propos (voir CSS MODAL)***********************/
+/*********************A propos (voir CSS MODAL1)***********************/
 
 
 /***********************Séparateur chapeau*************/
@@ -423,13 +423,7 @@ img .chapeau2:after {
 }
 
 
-/*** VIE ***/
-
-.VIE {
-    width: 20%;
-    background-color: #8dcaff;
-    border-radius: 30%;
-}
+/*** VIE (voir MODAL2) ***/
 
 
 /************ Séparateur rouage ***********/
