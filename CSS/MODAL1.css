@@ -1,0 +1,146 @@
+/************ A PROPOS ************/
+
+
+/* Bouton pour ouvrir le modal*/
+
+.ouverture {
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    background-color: #8dcaff;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 1%;
+    font-size: x-large;
+    color: black;
+    border-radius: 20%;
+    margin-top: 40%;
+}
+
+
+/* Pour bien ce positionner en fonction de élément flottant */
+
+.cf:before,
+.cf:after {
+    content: "";
+}
+
+.cf:after {
+    clear: both;
+    display: flex;
+}
+
+.droite {
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Permet de cacher le modal avec opacity: 0 */
+
+.oModal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    /* ease-in = Lent sur le début et accélère de plus en plus vers la fin. */
+}
+
+
+/* Pour faire venir le Modal */
+
+.oModal:target {
+    opacity: 1;
+    pointer-events: auto;
+    /* Permet de pointer avec la souris */
+}
+
+
+/* Façon dont le modal arrive */
+
+.oModal:target>div {
+    margin: 10% auto;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    /* ease-in-out = départ et fin lent */
+}
+
+
+/* Modal */
+
+.oModal>div {
+    max-width: 900px;
+    position: relative;
+    margin: 1% auto;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    background: rgba(189, 177, 177, 0.8);
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    /* ease-in-out = départ et fin lent */
+}
+
+
+/* Modal header */
+
+.oModal header {
+    border-bottom: 1px solid #222f51;
+    border-radius: 5px 5px 0 0;
+}
+
+.oModal h2 {
+    font-size: 150%;
+}
+
+
+/* Modal section */
+
+.oModal section {
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    font-size: 120%;
+}
+
+.colone1 {
+    width: 25%;
+    font-weight: bold;
+}
+
+.colone2 {
+    margin-left: 7%;
+    line-height: 150%;
+}
+
+.colone3 {
+    margin-left: 20%;
+    width: 25%;
+}
+
+.colone4 {
+    margin-left: 7%;
+}
+
+
+/* Modal Footer */
+
+.oModal .btn {
+    color: white;
+}
+
+.oModal footer {
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+}
