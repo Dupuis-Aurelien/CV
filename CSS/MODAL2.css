@@ -40,7 +40,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
@@ -76,9 +76,9 @@
     max-width: 900px;
     position: relative;
     margin: 1% auto;
-    padding: 8px 8px 8px 8px;
     border-radius: 5px;
-    background: rgba(189, 177, 177, 0.8);
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px black;
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -91,6 +91,7 @@
 .oModal2 header {
     border-bottom: 1px solid #222f51;
     border-radius: 5px 5px 0 0;
+    background: #a8d3f8;
 }
 
 .oModal2 h2 {

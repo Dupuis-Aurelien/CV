@@ -1,5 +1,9 @@
 /*****************************HEADER**********************/
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     text-align: center;
     height: 100%;
@@ -35,6 +39,113 @@ ul li a:hover {
 ul li img {
     vertical-align: middle;
     width: 120%;
+}
+
+
+/****** Menu de droite fixed **********/
+
+
+/* Visuel de base */
+
+.TéléchargerHeader,
+.TelHeader,
+.MailHeader,
+.AdresseHeader {
+    width: 40%;
+    margin-left: 94.5%;
+    background-color: white;
+    text-align: start;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* HOVER */
+
+.TéléchargerHeader:hover {
+    margin-left: 78%;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+
+.TelHeader:hover {
+    margin-left: 80%;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+
+.MailHeader:hover {
+    margin-left: 68%;
+    transition: ease-in;
+    transition-duration: 1.7s;
+}
+
+.AdresseHeader:hover {
+    margin-left: 80%;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+
+
+/* IMAGE */
+
+.TéléchargerHeader img,
+.TelHeader img,
+.MailHeader img,
+.AdresseHeader img {
+    width: 60px;
+    height: 60px;
+    text-align: start;
+}
+
+
+/* SEPARATEUR */
+
+.hrblanc {
+    color: #222f51;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+/* Positionnement */
+
+.TéléchargerHeader {
+    margin-top: 2%;
+}
+
+.TelHeader {
+    margin-top: 8%;
+}
+
+.MailHeader {
+    margin-top: 14%;
+}
+
+.AdresseHeader {
+    margin-top: 20%;
+}
+
+
+/* ECRITURE */
+
+.TéléchargerHeader a,
+.TelHeader a,
+.MailHeader a {
+    text-decoration: none;
+    color: #222f51;
+    font-size: 140%;
+}
+
+.AdresseHeader p {
+    text-decoration: none;
+    color: #222f51;
+    font-size: 140%;
+}
+
+.écriture {
+    margin-top: 3%;
 }
 
 
@@ -414,7 +525,7 @@ img .chapeau2:after {
     visibility: visible;
 }
 
-.BAC .image .année:hover {
+.BAC .image:hover .année {
     background-color: rgba(128, 128, 128, 0.6);
     width: 100%;
     height: 100%;
@@ -813,8 +924,4 @@ footer {
 
 .C_et_D {
     margin-left: 1%;
-}
-
-margin-left: 1%;
-
 }
