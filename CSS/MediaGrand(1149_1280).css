@@ -1,0 +1,90 @@
+/*** <1149  -  <1280 ***/
+
+
+/* <1280 */
+
+@media screen and (max-width: 1280px) {
+    li {
+        font-size: 80%;
+    }
+    /****** Menu de droite ******/
+    .TéléchargerHeader,
+    .TelHeader,
+    .MailHeader,
+    .AdresseHeader {
+        margin-left: 94%;
+    }
+    .TéléchargerHeader:hover {
+        margin-left: 74%;
+    }
+    .TelHeader:hover {
+        margin-left: 77%;
+    }
+    .MailHeader:hover {
+        margin-left: 63%;
+    }
+    .AdresseHeader:hover {
+        margin-left: 78%;
+    }
+    .TéléchargerHeader {
+        margin-top: 2%;
+    }
+    .TelHeader {
+        margin-top: 10%;
+    }
+    .MailHeader {
+        margin-top: 18%;
+    }
+    .AdresseHeader {
+        margin-top: 26%;
+    }
+    .ouverture {
+        margin-top: 45%;
+    }
+}
+
+
+/* <1149 */
+
+@media screen and (max-width: 1149px) {
+    li {
+        font-size: 80%;
+    }
+    /****** Menu de droite ******/
+    .TéléchargerHeader,
+    .TelHeader,
+    .MailHeader,
+    .AdresseHeader {
+        margin-left: 93%;
+    }
+    .TéléchargerHeader:hover {
+        margin-left: 72%;
+    }
+    .TelHeader:hover {
+        margin-left: 74%;
+    }
+    .MailHeader:hover {
+        margin-left: 60%;
+    }
+    .AdresseHeader:hover {
+        margin-left: 76%;
+    }
+    .TéléchargerHeader {
+        margin-top: 2%;
+    }
+    .TelHeader {
+        margin-top: 10%;
+    }
+    .MailHeader {
+        margin-top: 18%;
+    }
+    .AdresseHeader {
+        margin-top: 26%;
+    }
+    .ouverture {
+        margin-top: 50%;
+    }
+    footer {
+        padding: 1% 0.8% 0%;
+    }
+}

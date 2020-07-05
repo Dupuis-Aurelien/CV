@@ -2,24 +2,52 @@
 <html lang="fr">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="CSS/CV_Dupuis_Aurelien.css" />
     <link rel="stylesheet" type="text/css" href="CSS/MODAL1.css" />
     <link rel="stylesheet" type="text/css" href="CSS/MODAL2.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSS//MediaGrand(1149_1280).css" />
+    <link rel="stylesheet" type="text/css" href="CSS//MediaMoyen(899_1024).css" />
+    <link rel="stylesheet" type="text/css" href="CSS//MediaPetit(320_479_768).css" />
+
     <title>Curriculum vitæ DUPUIS Aurélien</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+
+            <!-- Menu initial-->
+            <ul id="menuInitial">
                 <li><a href="#présentation">QUI SUIS-JE ?</a></li>
                 <li><a href="#formations">FORMATIONS</a></li>
                 <li><img src="image/moi/logo.png" alt="Logo moi" /></li>
                 <li><a href="#connaissances">CONNAISSANCES</a></li>
                 <li><a href="#R_et_P">REALISATIONS / PASSIONS</a></li>
             </ul>
+
+
+            <!-- Menu hamburger -->
+            <div class="hamburger" role="navigation">
+                <div id="menuDéroulant">
+                    <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <img src="image/moi/logo.png" alt="Mon logo">
+                    <!-- Pour faire les 3 traits du hamburger -->
+                    <ul id="menu">
+
+                        <li><a href="#présentation">QUI SUIS-JE ?</a></li>
+                        <li><a href="#formations">FORMATIONS</a></li>
+
+                        <li><a href="#connaissances">CONNAISSANCES</a></li>
+                        <li><a href="#R_et_P">REALISATIONS / PASSIONS</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="TéléchargerHeader">
             <a href="documents/DA_cv.pdf" target="_blank" rel="noopener noreferrer"><img src="image/logos/télécharger.jpg" alt="logo télécharger" /></a>
@@ -78,12 +106,12 @@
                 <div class="flip-box-inner1">
                     <div class="flip-box-front1 raisons">
                         <h2>5 BONNES RAISONS <br> DE ME CHOISIR</h3>
-                            <p>
+                            <p title="garder la souris appuyer">
                                 > EN SAVOIR PLUS
                             </p>
                     </div>
                     <div class="flip-box-back1 qualités">
-                        <h3>Persévérants</h3>
+                        <h3>Persévérant</h3>
                         <h3>Perfectionniste</h3>
                         <h3>Rigoureux</h3>
                         <h3>Autonome</h3>
@@ -149,19 +177,32 @@
 
         <div class="block1">
             <div class="DevWeb">
-                <img src="image/formations/ChateauFréjus.jpg" alt="Promotion 2020 et Chateau" />
+                <div class="image">
+                    <div class="année">
+                        <h3>2020</h3>
+                    </div>
+                </div>
                 <h3>DEVELOPPEMENT WEB ET WEB MOBILE</h3>
                 <h4>MODE 83 (FREJUS(83))</h4>
                 <p>Apprentissage de ..</p>
             </div>
             <div class="MNS">
-                <img src="image/formations/FormationSud.jpg" alt="Centre de formation MNS" />
+                <div class="image">
+                    <div class="année">
+                        <h3>2017</h3>
+                    </div>
+                </div>
                 <h3>MAITRE NAGEUR SAUVETEUR</h3>
                 <h4>FORMATION SUD (NARBONNE(11))</h4>
                 <p>Obtention du diplôme BPJEPS AAN</p>
             </div>
             <div class="EPS">
-                <img src="image/formations/JulesVerne.jpg" alt="Centre de formation MNS" />
+                <div class="image">
+                    <div class="année">
+                        <h3>2014</h3>
+
+                    </div>
+                </div>
                 <h3>PROFESSEUR D'EPS</h3>
                 <h4>UNIVERSITE JULES VERNES (AMIENS(80))</h4>
                 <p>
@@ -172,42 +213,33 @@
                 <div class="image">
                     <div class="année">
                         <h3>2009</h3>
-                        <a href="http://lyceejeanracine.fr/wdps/" target="_blank" rel="noopener noreferrer">Site du Lycée</a
-              >
+                    </div>
+                </div>
+                <h3>BACCALAUREAT SCIENTIFIQUE</h3>
+                <h4>LYCEE JEAN RACINE (MONTDIDIER(80))</h4>
+                <p>Spécialité Science de la Vie et de la Terre</p>
             </div>
-          </div>
 
-          <h3>BACCALAUREAT SCIENTIFIQUE</h3>
-          <h4>LYCEE JEAN RACINE (MONTDIDIER(80))</h4>
-          <p>Spécialité Science de la Vie et de la Terre</p>
-          <a
-            href="http://lyceejeanracine.fr/wdps/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Site du Lycée</a
-          >
-            </div>
-        
-        
-             <div id="oModal2" class="oModal2">
+
+            <div id="oModal2" class="oModal2">
                 <div>
                     <header>
                         <a href="#fermer2" title="Fermer la fenêtre" class="croix2">X</a>
                         <h2>Mon expérience professionnelle</h2>
-                        </header>
-                        <section class="éléments2">
-                            <p><strong>2018-2019 :</strong> Maitre nageur</p>
-                            <p><strong>2017-2018 :</strong> Maitre nageur</p>
-                            <p><strong>2015-2017 :</strong> Professeur d'EPS</p>
-                            <p><strong>2010-2015 :</strong> Surveillant de baignade</p>
-                        </section>
-                        <footer class="cf2">
-                            <a href="#fermer2" class="btn2 " title="Fermer la fenêtre">Fermer</a>
-                        </footer>
-                    </div>
+                    </header>
+                    <section class="éléments2">
+                        <p><strong>2018-2019 :</strong> Maitre nageur</p>
+                        <p><strong>2017-2018 :</strong> Maitre nageur</p>
+                        <p><strong>2015-2017 :</strong> Professeur d'EPS</p>
+                        <p><strong>2010-2015 :</strong> Surveillant de baignade</p>
+                    </section>
+                    <footer class="cf2">
+                        <a href="#fermer2" class="btn2 " title="Fermer la fenêtre">Fermer</a>
+                    </footer>
                 </div>
+            </div>
 
-                <a class="ouverture2" href="#oModal2">> Ma vie antérieure</a>
+            <a class="ouverture2" href="#oModal2">> Ma vie antérieure</a>
 
     </section>
 
@@ -237,11 +269,11 @@
                 <div class="flip-box-inner2">
                     <div class="flip-box-front2 Développement">
                         <div class="outils">
-                            <h3>Outils de Développement</h3>
+                            <h3>Langages Informatique</h3>
                         </div>
                     </div>
                     <div class="flip-box-back2">
-                        <h2>Outils de Développement</h2>
+                        <h2>Langages Informatique</h2>
                     </div>
                 </div>
             </div>
@@ -271,7 +303,7 @@
                 <div class="flip-box-inner2">
                     <div class="flip-box-front2 Informatique">
                         <div class="outils">
-                            <h3>Outils Informatique</h3>
+                            <h3>Outils <br>Informatique</h3>
                         </div>
                     </div>
                     <div class="flip-box-back2">
@@ -326,48 +358,52 @@
         <!-- BLOCK4 -->
 
         <div class="block4">
-            <!-- Colone 1 -->
-            <div class="information">
-                <h3>MES INFORMATIONS</h3>
-            </div>
+            <div class="block4a">
+                <!-- Colone 1 -->
+                <div class="information">
+                    <h3>MES INFORMATIONS</h3>
+                </div>
 
-            <!-- Colone 2 -->
-            <div class="contact">
-                <div class="adresse">
-                    <img src="image/footer/logoadresse.jpg" alt="Logo adresse" />
-                    <h4>675, rue du Dr Donnadieu, 83600 Fréjus</h4>
-                </div>
-                <div class="téléphone">
-                    <img src="image/footer/LogoTéléphone.png" alt="Logo téléphone" />
-                    <h4>06.74.15.14.16</h4>
-                </div>
-                <div class="mail">
-                    <img src="image/footer/LogoMail.png" alt="Logo mail" />
-                    <h4>Dupuis.aurélien.DEV@outlook.fr</h4>
-                </div>
-            </div>
-
-            <!-- Colone 3 -->
-            <div class="CV">
-                <div>
-                    <h3>MON CV</h3>
-                </div>
-                <div class="documents">
-                    <a class="image1" href="documents/DA_cv.docx" target="_blank" rel="noopener noreferrer"><img class="word" src="image/logos/word.jpg" alt="logo word" /></a>
-
-                    <a href="documents/DA_cv.pdf" target="_blank" rel="noopener noreferrer"><img class="pdf" src="image/logos/pdf.jpg" alt="logo pdf" /></a>
+                <!-- Colone 2 -->
+                <div class="contact">
+                    <div class="adresse">
+                        <img src="image/footer/logoadresse.jpg" alt="Logo adresse" />
+                        <h4>675, rue du Dr Donnadieu 83600 Fréjus</h4>
+                    </div>
+                    <div class="téléphone">
+                        <img src="image/footer/LogoTéléphone.png" alt="Logo téléphone" />
+                        <h4>06.74.15.14.16</h4>
+                    </div>
+                    <div class="mail">
+                        <img src="image/footer/LogoMail.png" alt="Logo mail" />
+                        <h4>Dupuis.aurélien.DEV@outlook.fr</h4>
+                    </div>
                 </div>
             </div>
 
-            <!--Colone 4-->
-            <div class="RESEAUX">
-                <div>
-                    <h3>MES RESEAUX</h3>
-                </div>
-                <div class="sociaux">
-                    <a class="image1" href="https://github.com/Dupuis-Aurelien" target="_blank" rel="noopener noreferrer"><img class="github" src="image/footer/github.png" alt="logo github" /></a>
+            <div class="block4b">
+                <!-- Colone 3 -->
+                <div class="CV">
+                    <div>
+                        <h3>MON CV</h3>
+                    </div>
+                    <div class="documents">
+                        <a class="image1" href="documents/DA_cv.docx" target="_blank" rel="noopener noreferrer"><img class="word" src="image/logos/word.jpg" alt="logo word" /></a>
 
-                    <a href="https://www.linkedin.com/in/aurelien-dupuis-5b61a51b0/" target="_blank" rel="noopener noreferrer"><img class="linkedIn" src="image/logos/ln.png" alt="logo linkedIn" /></a>
+                        <a href="documents/DA_cv.pdf" target="_blank" rel="noopener noreferrer"><img class="pdf" src="image/logos/pdf.jpg" alt="logo pdf" /></a>
+                    </div>
+                </div>
+
+                <!--Colone 4-->
+                <div class="RESEAUX">
+                    <div>
+                        <h3>MES RESEAUX</h3>
+                    </div>
+                    <div class="sociaux">
+                        <a class="image1" href="https://github.com/Dupuis-Aurelien" target="_blank" rel="noopener noreferrer"><img class="github" src="image/footer/github.png" alt="logo github" /></a>
+
+                        <a href="https://www.linkedin.com/in/aurelien-dupuis-5b61a51b0/" target="_blank" rel="noopener noreferrer"><img class="linkedIn" src="image/logos/ln.png" alt="logo linkedIn" /></a>
+                    </div>
                 </div>
             </div>
         </div>

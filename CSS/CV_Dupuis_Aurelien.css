@@ -1,927 +1,897 @@
-/*****************************HEADER**********************/
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    text-align: center;
-    height: 100%;
-    width: 100%;
-}
-
-nav {
-    background-color: rgba(34, 47, 81, 0.4);
-}
-
-ul {
-    margin-top: -1%;
-}
-
-li {
-    display: inline-block;
-    margin-left: 3%;
-    margin-right: 3%;
-    font-size: 120%;
-    color: #222f51;
-    justify-content: center;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #222f51;
-}
-
-ul li a:hover {
-    color: #8dcaff;
-}
-
-ul li img {
-    vertical-align: middle;
-    width: 120%;
-}
-
-
-/****** Menu de droite fixed **********/
-
-
-/* Visuel de base */
-
-.TéléchargerHeader,
-.TelHeader,
-.MailHeader,
-.AdresseHeader {
-    width: 40%;
-    margin-left: 94.5%;
-    background-color: white;
-    text-align: start;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-}
-
-
-/* HOVER */
-
-.TéléchargerHeader:hover {
-    margin-left: 78%;
-    transition: ease-in;
-    transition-duration: 1s;
-}
-
-.TelHeader:hover {
-    margin-left: 80%;
-    transition: ease-in;
-    transition-duration: 1s;
-}
-
-.MailHeader:hover {
-    margin-left: 68%;
-    transition: ease-in;
-    transition-duration: 1.7s;
-}
-
-.AdresseHeader:hover {
-    margin-left: 80%;
-    transition: ease-in;
-    transition-duration: 1s;
-}
-
-
-/* IMAGE */
-
-.TéléchargerHeader img,
-.TelHeader img,
-.MailHeader img,
-.AdresseHeader img {
-    width: 60px;
-    height: 60px;
-    text-align: start;
-}
-
-
-/* SEPARATEUR */
-
-.hrblanc {
-    color: #222f51;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-
-/* Positionnement */
-
-.TéléchargerHeader {
-    margin-top: 2%;
-}
-
-.TelHeader {
-    margin-top: 8%;
-}
-
-.MailHeader {
-    margin-top: 14%;
-}
-
-.AdresseHeader {
-    margin-top: 20%;
-}
-
-
-/* ECRITURE */
-
-.TéléchargerHeader a,
-.TelHeader a,
-.MailHeader a {
-    text-decoration: none;
-    color: #222f51;
-    font-size: 140%;
-}
-
-.AdresseHeader p {
-    text-decoration: none;
-    color: #222f51;
-    font-size: 140%;
-}
-
-.écriture {
-    margin-top: 3%;
-}
-
-
-/************************HEADER_IMAGE**********************/
-
-header .photo_de_moi {}
-
-header .Montdidier {
-    width: 220px;
-    height: 315px;
-    top: 0px;
-    right: 0px;
-    z-index: 20;
-    animation-name: Apparition3;
-    animation-duration: 8s;
-    animation-timing-function: ease-in;
-}
-
-@keyframes Apparition3 {
-    0% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-
-header .Moi {
-    width: 220px;
-    height: 350px;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    margin-bottom: 0.2%;
-    margin-left: -3%;
-    margin-right: -3%;
-    z-index: 0;
-    animation-name: Apparition1;
-    animation-duration: 7s;
-}
-
-@keyframes Apparition1 {
-    0% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-
-header .Fréjus {
-    width: 220px;
-    height: 315px;
-    top: 0px;
-    right: 0px;
-    z-index: 13;
-    animation-name: Apparition2;
-    animation-duration: 8s;
-    animation-timing-function: ease-in;
-}
-
-@keyframes Apparition2 {
-    0% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
-}
-
-
-/***********************HEADER_Métier*********************/
-
-header .Métier {
-    width: 50%;
-    height: 50px;
-    background-color: #222f51;
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    margin-top: 2%;
-}
-
-
-/*********************QUI_suis-je ?**********************/
-
-#présentation {
-    color: #222f51;
-    display: flex;
-    flex-direction: row;
-    margin: 5% 5% 0%;
-}
-
-
-/*************************Droite************************/
-
-.qui {
-    font-size: 160%;
-    width: 50%;
-    margin-right: 5%;
-}
-
-.droite {
-    width: 50%;
-}
-
-.titre {
-    background-attachment: fixed;
-    background-image: url(../ancien/image/font1.jpeg);
-    background-repeat: no-repeat;
-    color: white;
-}
-
-hr .avant {
-    width: 1%;
-}
-
-.titre h2 {
-    text-align: center;
-    padding: 1em 0;
-    text-align: center;
-    overflow: hidden;
-}
-
-.titre h2:before,
-.titre h2:after {
-    content: "";
-    width: 3em;
-    border-bottom: rgba(0, 0, 0, 0.8) solid;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.titre h2:before {
-    margin-left: -50%;
-    margin-right: 1em;
-}
-
-.titre h2:after {
-    margin-right: -50%;
-    margin-left: 1em;
-}
-
-
-/*************5 Bonnes raisons de me choisir************/
-
-.flip-box1 {
-    width: 100%;
-    height: 370px;
-    perspective: 1000px;
-    /* Pour avoir l'effet 3D */
-}
-
-
-/* Pour faire la rotation et définir de devant et l'arriére */
-
-.flip-box-inner1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-
-/* Rotation horizontale avec le hover*/
-
-.flip-box1:hover .flip-box-inner1 {
-    transform: rotateY(180deg);
-}
-
-
-/* Positionner l'avant et l'arriére */
-
-.flip-box-front1,
-.flip-box-back1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
-    backface-visibility: hidden;
-}
-
-.flip-box-back1 {
-    background-color: #222f51;
-    color: #8dcaff;
-    border-top: 50px solid #8dcaff;
-    transform: rotateY(180deg);
-}
-
-.raisons {
-    border-top: 50px solid #8dcaff;
-    box-shadow: 2px 2px 20px darkgray;
-    font-size: 180%;
-    margin-top: 20%;
-}
-
-.qualités {
-    border-top: 50px solid #8dcaff;
-    box-shadow: 2px 2px 20px darkgray;
-    font-size: 180%;
-    margin-top: 20%;
-}
-
-
-/*********************En savoir plus**********************/
-
-.raisons p {
-    float: right;
-    padding-top: 20%;
-    padding-right: 3%;
-}
-
-
-/*********************A propos (voir CSS MODAL1)***********************/
-
-
-/***********************Séparateur chapeau*************/
-
-img .chapeau2 {
-    width: 10px;
-    height: 1px;
-}
-
-img .chapeau2:before,
-img .chapeau2:after {
-    content: "";
-    width: 3em;
-    border-bottom: rgba(0, 0, 0, 0.8) solid;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-img .chapeau2:before {
-    margin-left: -50%;
-    margin-right: 1em;
-}
-
-img .chapeau2:after {
-    margin-right: -50%;
-    margin-left: 1em;
-}
-
-
-/****************** FORMATIONS **********************/
-
-
-/*** TITRE ***/
-
-#formations h2 {
-    text-align: center;
-    padding: 1em 0;
-    text-align: center;
-    overflow: hidden;
-}
-
-#formations h2:before,
-#formations h2:after {
-    content: "";
-    width: 3em;
-    border-bottom: rgba(0, 0, 0, 0.5) solid;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#formations h2:before {
-    margin-left: -40%;
-    margin-right: 1em;
-    width: 20%;
-}
-
-#formations h2:after {
-    margin-right: -40%;
-    margin-left: 1em;
-    width: 20%;
-}
-
-
-/****** block1 ******/
-
-.block1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-}
-
-
-/*** DevWeb ***/
-
-.DevWeb {
-    border: #8dcaff dotted 2px;
-    width: 40%;
-    margin: 2%;
-    padding: 2%;
-}
-
-.DevWeb img {
-    width: 500px;
-    height: 350px;
-    max-width: 100%;
-}
-
-
-/*** MNS ***/
-
-.MNS {
-    border: #8dcaff dotted 2px;
-    width: 40%;
-    margin: 2%;
-    padding: 2%;
-}
-
-.MNS img {
-    width: 500px;
-    height: 350px;
-    max-width: 100%;
-}
-
-
-/*** EPS ***/
-
-.EPS {
-    border: #8dcaff dotted 2px;
-    width: 40%;
-    margin: 2%;
-    padding: 2%;
-}
-
-.EPS img {
-    width: 500px;
-    height: 350px;
-    max-width: 100%;
-}
-
-
-/*** BAC ***/
-
-.BAC {
-    border: #8dcaff dotted 2px;
-    width: 40%;
-    margin: 2%;
-    padding: 2%;
-}
-
-.BAC .image {
-    background-image: url(../image/formations/LycéeMontdidier.jpg);
-    background-size: cover;
-    height: 350px;
-    max-width: 100%;
-}
-
-.BAC .image:hover {}
-
-.BAC .image .année {
-    background-color: rgba(128, 128, 128, 0.3);
-    width: 100px;
-    height: 70px;
-    background-position: bottom right;
-}
-
-.BAC .image .année h3 {
-    padding-top: 20%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.BAC .image .année a {
-    visibility: hidden;
-}
-
-.BAC .image .année:hover a {
-    visibility: visible;
-}
-
-.BAC .image:hover .année {
-    background-color: rgba(128, 128, 128, 0.6);
-    width: 100%;
-    height: 100%;
-    margin-left: 0%;
-}
-
-
-/*** VIE (voir MODAL2) ***/
-
-
-/************ Séparateur rouage ***********/
-
-
-/************************ CONNAISSANCES ************************/
-
-
-/*** TITRE ***/
-
-#connaissances h2 {
-    text-align: center;
-    padding: 1em 0;
-    text-align: center;
-    overflow: hidden;
-}
-
-#connaissances h2:before,
-#connaissances h2:after {
-    content: "";
-    width: 3em;
-    border-bottom: rgba(0, 0, 0, 0.5) solid;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#connaissances h2:before {
-    margin-left: -40%;
-    margin-right: 1em;
-    width: 20%;
-}
-
-#connaissances h2:after {
-    margin-right: -40%;
-    margin-left: 1em;
-    width: 20%;
-}
-
-
-/****** block2 ******/
-
-.block2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
-/*** Outils Développement ***/
-
-.flip-box2 {
-    width: 28%;
-    height: 500px;
-    perspective: 1000px;
-    /* Pour avoir l'effet 3D */
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-
-/* Pour faire la rotation et définir de devant et l'arriére */
-
-.flip-box-inner2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-
-/* Rotation horizontale avec le hover*/
-
-.flip-box2:hover .flip-box-inner2 {
-    transform: rotateY(180deg);
-}
-
-
-/* Positionner l'avant et l'arriére */
-
-.flip-box-front2,
-.flip-box-back2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
-    backface-visibility: hidden;
-}
-
-
-/* Devant */
-
-.Développement {
-    background-image: url(../image/connaissances/OutilsDev.jpg);
-    background-size: cover;
-}
-
-.Web {
-    background-image: url(../image/connaissances/OutilsWeb.jpg);
-    background-size: cover;
-}
-
-.Informatique {
-    background-image: url(../image/connaissances//OutilsInformatique.jpg);
-    background-size: cover;
-}
-
-
-/* Devant petit rectangle */
-
-.outils {
-    height: 20%;
-    width: 60%;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin-top: 107.5%;
-    text-align: center;
-}
-
-.outils h3 {
-    margin-top: 10%;
-    font-size: 200%;
-    color: #222f51;
-    padding-top: 5%;
-}
-
-
-/* Dérriére */
-
-.flip-box-back2 {
-    background-color: #222f51;
-    color: #8dcaff;
-    transform: rotateY(180deg);
-}
-
-.flip-box-back2 img {
-    width: 80px;
-    height: 80px;
-    margin-right: 2%;
-}
-
-.flip-box-back2 img:hover {
-    width: 100px;
-    height: 100px;
-}
-
-
-/************ Séparateur palette couleur ***********/
-
-
-/************************ REALISATIONS & PASSIONS ************************/
-
-
-/*** TITRE ***/
-
-#R_et_P h2 {
-    text-align: center;
-    padding: 1em 0;
-    text-align: center;
-    overflow: hidden;
-}
-
-#R_et_P h2:before,
-#R_et_P h2:after {
-    content: "";
-    width: 3em;
-    border-bottom: rgba(0, 0, 0, 0.5) solid;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#R_et_P h2:before {
-    margin-left: -40%;
-    margin-right: 1em;
-    width: 20%;
-}
-
-#R_et_P h2:after {
-    margin-right: -40%;
-    margin-left: 1em;
-    width: 20%;
-}
-
-
-/*** TEXTE ***/
-
-#R_et_P h3 {
-    text-align: center;
-    color: #8dcaff;
-    font-size: 150%;
-}
-
-
-/*** BLOCK3 ***/
-
-.block3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-/*** JEUX VIDEO ***/
-
-.JeuxVidéo {
-    width: 30%;
-    box-shadow: 20px 20px 20px rgb(117, 112, 112);
-}
-
-.JeuxVidéo img {
-    width: 100%;
-}
-
-
-/*** JUDO ***/
-
-.Judo {
-    width: 30%;
-    margin-left: 2%;
-    margin-right: 2%;
-    box-shadow: 20px 20px 20px rgb(117, 112, 112);
-}
-
-.Judo img {
-    width: 100%;
-}
-
-
-/*** BIENFAITS DU SPORT ***/
-
-.BienfaitsDuSport {
-    width: 30%;
-    box-shadow: 20px 20px 20px rgb(117, 112, 112);
-}
-
-.BienfaitsDuSport img {
-    width: 100%;
-}
-
-
-/*** BOUTON ***/
-
-button {
-    background-color: #8dcaff;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 45%;
-}
-
-
-/************************ FOOTER ************************/
-
-footer {
-    background-color: #222f51;
-    color: white;
-    padding: 2% 3% 0%;
-}
-
-
-/*** BLOCK4 ***/
-
-.block4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-
-/*** Colone 1 ***/
-
-.information {
-    width: 25%;
-}
-
-.information h3 {}
-
-
-/*** Colone 2 ***/
-
-.contact {
-    width: 35%;
-    margin-top: 2%;
-}
-
-.contact .adresse {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.contact .adresse img {
-    width: 40px;
-    height: 40px;
-    margin-right: 2%;
-}
-
-.contact .téléphone {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.contact .téléphone img {
-    width: 40px;
-    height: 40px;
-    margin-right: 2%;
-}
-
-.contact .mail {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.contact .mail img {
-    width: 40px;
-    height: 40px;
-    margin-right: 2%;
-}
-
-
-/*** Colone 3 ***/
-
-.CV {
-    width: 20%;
-}
-
-.CV h3 {}
-
-.CV .documents {}
-
-.CV .documents .word {
-    width: 40px;
-    height: 40px;
-    margin-right: 10%;
-}
-
-.CV .documents .pdf {
-    width: 40px;
-    height: 40px;
-}
-
-
-/*** Colone 4 ***/
-
-.RESEAUX {
-    width: 20%;
-}
-
-.RESEAUX h3 {}
-
-.RESEAUX .sociaux {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.RESEAUX .sociaux .github {
-    width: 40px;
-    height: 40px;
-}
-
-.RESEAUX .sociaux .image1 {
-    margin-right: 15%;
-}
-
-.RESEAUX .sociaux .github:hover {
-    width: 60px;
-    height: 60px;
-}
-
-.RESEAUX .sociaux .linkedIn {
-    width: 40px;
-    height: 40px;
-}
-
-.RESEAUX .sociaux .linkedIn:hover {
-    width: 60px;
-    height: 60px;
-}
-
-
-/*** Copyright et droit ***/
-
-.C_et_D {
-    margin-left: 1%;
-}
+        #menuDéroulant {
+            display: block;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+            -webkit-user-select: none;
+            user-select: none;
+            display: none;
+        }
+        
+        #menuDéroulant img {
+            position: relative;
+            top: -60px;
+        }
+        
+        #menuDéroulant a {
+            text-decoration: none;
+            color: #232323;
+            transition: color 0.3s ease;
+        }
+        
+        #menuDéroulant input {
+            display: block;
+            width: 40px;
+            height: 32px;
+            position: absolute;
+            top: -7px;
+            left: -5px;
+            cursor: pointer;
+            opacity: 0;
+            /* hide this */
+            z-index: 2;
+            /* and place it over the hamburger */
+            -webkit-touch-callout: none;
+        }
+        /* Visuel du hamburger */
+        
+        #menuDéroulant span {
+            display: block;
+            width: 33px;
+            height: 4px;
+            margin-bottom: 5px;
+            position: relative;
+            background: #222f51;
+            border-radius: 3px;
+            z-index: 1;
+        }
+        /* Menu arrivant du hamburger */
+        
+        #menu {
+            position: absolute;
+            width: 300px;
+            margin: -100px 0 0 -50px;
+            padding: 50px;
+            background: #8dcaff;
+            transform-origin: 0% 0%;
+            transform: translate(-105%, 0);
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+        }
+        
+        #menu li {
+            padding: 10px 0;
+            font-size: 22px;
+        }
+        /*
+ * And let's slide it in from the left
+ */
+        
+        #menuDéroulant input:checked~ul {
+            transform: none;
+        }
+        /*****************************HEADER**********************/
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        }
+        
+        nav {
+            background-color: rgba(34, 47, 81, 0.4);
+        }
+        
+        ul {
+            margin-top: -1%;
+        }
+        
+        li {
+            display: inline-block;
+            margin-left: 3%;
+            margin-right: 3%;
+            font-size: 100%;
+            color: #222f51;
+            justify-content: center;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #222f51;
+        }
+        
+        ul li a:hover {
+            color: #8dcaff;
+        }
+        
+        ul li img {
+            vertical-align: middle;
+            width: 120%;
+        }
+        /****** Menu de droite fixed **********/
+        /* Visuel de base */
+        
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            width: 55%;
+            margin-left: 94.5%;
+            background-color: white;
+            text-align: start;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            z-index: 11000;
+        }
+        /* HOVER */
+        
+        .TéléchargerHeader:hover {
+            margin-left: 78%;
+            transition: ease-in;
+            transition-duration: 1s;
+        }
+        
+        .TelHeader:hover {
+            margin-left: 80%;
+            transition: ease-in;
+            transition-duration: 1s;
+        }
+        
+        .MailHeader:hover {
+            margin-left: 68%;
+            transition: ease-in;
+            transition-duration: 1.7s;
+        }
+        
+        .AdresseHeader:hover {
+            margin-left: 80%;
+            transition: ease-in;
+            transition-duration: 1s;
+        }
+        /* IMAGE */
+        
+        .TéléchargerHeader img,
+        .TelHeader img,
+        .MailHeader img,
+        .AdresseHeader img {
+            width: 60px;
+            height: 60px;
+            text-align: start;
+        }
+        /* SEPARATEUR */
+        
+        .hrblanc {
+            color: #222f51;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        /* Positionnement */
+        
+        .TéléchargerHeader {
+            margin-top: 2%;
+        }
+        
+        .TelHeader {
+            margin-top: 8%;
+        }
+        
+        .MailHeader {
+            margin-top: 14%;
+        }
+        
+        .AdresseHeader {
+            margin-top: 20%;
+        }
+        /* ECRITURE */
+        
+        .TéléchargerHeader a,
+        .TelHeader a,
+        .MailHeader a {
+            text-decoration: none;
+            color: #222f51;
+            font-size: 140%;
+        }
+        
+        .AdresseHeader p {
+            text-decoration: none;
+            color: #222f51;
+            font-size: 140%;
+        }
+        
+        .écriture {
+            margin-top: 3%;
+        }
+        /************************HEADER_IMAGE**********************/
+        
+        header .photo_de_moi img {}
+        
+        header .Montdidier {
+            width: 220px;
+            height: 315px;
+            top: 0px;
+            right: 0px;
+            z-index: 20;
+            animation-name: Apparition3;
+            animation-duration: 8s;
+            animation-timing-function: ease-in;
+        }
+        
+        @keyframes Apparition3 {
+            0% {
+                opacity: 0%;
+            }
+            100% {
+                opacity: 100%;
+            }
+        }
+        
+        header .Moi {
+            width: 220px;
+            height: 350px;
+            position: relative;
+            top: 0px;
+            right: 0px;
+            margin-bottom: 0.2%;
+            margin-left: -3%;
+            margin-right: -3%;
+            z-index: 0;
+            animation-name: Apparition1;
+            animation-duration: 7s;
+        }
+        
+        @keyframes Apparition1 {
+            0% {
+                opacity: 0%;
+            }
+            100% {
+                opacity: 100%;
+            }
+        }
+        
+        header .Fréjus {
+            width: 220px;
+            height: 315px;
+            top: 0px;
+            right: 0px;
+            z-index: 13;
+            animation-name: Apparition2;
+            animation-duration: 8s;
+            animation-timing-function: ease-in;
+        }
+        
+        @keyframes Apparition2 {
+            0% {
+                opacity: 0%;
+            }
+            100% {
+                opacity: 100%;
+            }
+        }
+        /***********************HEADER_Métier*********************/
+        
+        header .Métier {
+            width: 50%;
+            height: auto;
+            background-color: #222f51;
+            margin: auto;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+            margin-top: 2%;
+        }
+        
+        #auto_text {
+            padding-top: 10px;
+        }
+        /*********************QUI_suis-je ?**********************/
+        
+        #présentation {
+            color: #222f51;
+            display: flex;
+            flex-direction: row;
+            margin: 5% 5% 0%;
+        }
+        /*************************Droite************************/
+        
+        .qui {
+            font-size: 160%;
+            width: 50%;
+            margin-right: 5%;
+        }
+        
+        .droite {
+            width: 50%;
+        }
+        
+        .titre {
+            background-attachment: fixed;
+            background-image: url(../ancien/image/font1.jpeg);
+            background-repeat: no-repeat;
+            color: white;
+        }
+        
+        hr .avant {
+            width: 1%;
+        }
+        
+        .titre h2 {
+            text-align: center;
+            padding: 1em 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .titre h2:before,
+        .titre h2:after {
+            content: "";
+            width: 3em;
+            border-bottom: rgba(0, 0, 0, 0.8) solid;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        .titre h2:before {
+            margin-left: -50%;
+            margin-right: 1em;
+        }
+        
+        .titre h2:after {
+            margin-right: -50%;
+            margin-left: 1em;
+        }
+        /*************5 Bonnes raisons de me choisir************/
+        
+        .flip-box1 {
+            width: 100%;
+            height: 300px;
+            perspective: 1000px;
+            /* Pour avoir l'effet 3D */
+        }
+        /* Pour faire la rotation et définir de devant et l'arriére */
+        
+        .flip-box-inner1 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+        /* Rotation horizontale avec le hover*/
+        
+        .flip-box1:active .flip-box-inner1 {
+            transform: rotateY(180deg);
+        }
+        /* Positionner l'avant et l'arriére */
+        
+        .flip-box-front1,
+        .flip-box-back1 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            /* Safari */
+            backface-visibility: hidden;
+        }
+        
+        .flip-box-back1 {
+            background-color: #222f51;
+            color: #8dcaff;
+            border-top: 50px solid #8dcaff;
+            transform: rotateY(180deg);
+        }
+        
+        .raisons {
+            border-top: 50px solid #8dcaff;
+            box-shadow: 2px 2px 20px darkgray;
+            font-size: 180%;
+            margin-top: 20%;
+            padding-top: 10%;
+            line-height: 250%;
+        }
+        
+        .qualités {
+            border-top: 50px solid #8dcaff;
+            box-shadow: 2px 2px 20px darkgray;
+            font-size: 170%;
+            margin-top: 20%;
+            height: 360px;
+        }
+        /*********************En savoir plus**********************/
+        
+        .raisons p {
+            float: right;
+            padding-right: 3%;
+            font-size: 70%;
+        }
+        /*********************A propos (voir CSS MODAL1)***********************/
+        /***********************Séparateur chapeau*************/
+        
+        img .chapeau2 {
+            width: 10px;
+            height: 1px;
+        }
+        
+        img .chapeau2:before,
+        img .chapeau2:after {
+            content: "";
+            width: 3em;
+            border-bottom: rgba(0, 0, 0, 0.8) solid;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        img .chapeau2:before {
+            margin-left: -50%;
+            margin-right: 1em;
+        }
+        
+        img .chapeau2:after {
+            margin-right: -50%;
+            margin-left: 1em;
+        }
+        /****************** FORMATIONS **********************/
+        /*** TITRE ***/
+        
+        #formations h2 {
+            text-align: center;
+            padding: 1em 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        #formations h2:before,
+        #formations h2:after {
+            content: "";
+            width: 3em;
+            border-bottom: rgba(0, 0, 0, 0.5) solid;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        #formations h2:before {
+            margin-left: -40%;
+            margin-right: 1em;
+            width: 20%;
+        }
+        
+        #formations h2:after {
+            margin-right: -40%;
+            margin-left: 1em;
+            width: 20%;
+        }
+        /****** block1 ******/
+        
+        .block1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        }
+        /*** Les 4 blocks ***/
+        
+        .DevWeb,
+        .MNS,
+        .EPS,
+        .BAC {
+            border: #8dcaff dotted 2px;
+            width: 40%;
+            margin: 2%;
+            padding: 2%;
+            padding-top: 1%;
+        }
+        /*** Images ***/
+        
+        .block1 .image {
+            background-size: cover;
+            height: 280px;
+            max-width: 100%;
+        }
+        
+        .DevWeb .image {
+            background-image: url(../image/formations/ChateauFréjus.jpg);
+        }
+        
+        .MNS .image {
+            background-image: url(../image/formations/FormationSud.jpg);
+        }
+        
+        .EPS .image {
+            background-image: url(../image/formations/JulesVerne.jpg);
+        }
+        
+        .BAC .image {
+            background-image: url(../image/formations/LycéeMontdidier.jpg);
+        }
+        /*** Rectangle gris et Année ***/
+        
+        .DevWeb .image .année,
+        .MNS .image .année,
+        .EPS .image .année,
+        .BAC .image .année {
+            background-color: rgb(128, 128, 128);
+            width: 80px;
+            height: 50px;
+        }
+        
+        .DevWeb .image .année h3,
+        .MNS .image .année h3,
+        .EPS .image .année h3,
+        .BAC .image .année h3 {
+            padding-top: 20%;
+            text-align: center;
+        }
+        /*** VIE (voir MODAL2) ***/
+        /************ Séparateur rouage ***********/
+        /************************ CONNAISSANCES ************************/
+        /*** TITRE ***/
+        
+        #connaissances h2 {
+            text-align: center;
+            padding: 1em 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        #connaissances h2:before,
+        #connaissances h2:after {
+            content: "";
+            width: 3em;
+            border-bottom: rgba(0, 0, 0, 0.5) solid;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        #connaissances h2:before {
+            margin-left: -40%;
+            margin-right: 1em;
+            width: 20%;
+        }
+        
+        #connaissances h2:after {
+            margin-right: -40%;
+            margin-left: 1em;
+            width: 20%;
+        }
+        /****** block2 ******/
+        
+        .block2 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        /*** Outils Développement ***/
+        
+        .flip-box2 {
+            width: 28%;
+            height: 400px;
+            perspective: 1000px;
+            /* Pour avoir l'effet 3D */
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        /* Pour faire la rotation et définir de devant et l'arriére */
+        
+        .flip-box-inner2 {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+        /* Rotation horizontale avec le hover*/
+        
+        .flip-box2:hover .flip-box-inner2 {
+            transform: rotateY(180deg);
+        }
+        /* Positionner l'avant et l'arriére */
+        
+        .flip-box-front2,
+        .flip-box-back2 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            /* Safari */
+            backface-visibility: hidden;
+        }
+        /* Devant */
+        
+        .Développement {
+            background-image: url(../image/connaissances/OutilsDev.jpg);
+            background-size: cover;
+        }
+        
+        .Web {
+            background-image: url(../image/connaissances/OutilsWeb.jpg);
+            background-size: cover;
+        }
+        
+        .Informatique {
+            background-image: url(../image/connaissances//OutilsInformatique.jpg);
+            background-size: cover;
+        }
+        /* Devant petit rectangle */
+        
+        .outils {
+            height: 20%;
+            width: 60%;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+        }
+        
+        .outils h3 {
+            font-size: 150%;
+            color: #222f51;
+            padding-top: 1%;
+            margin: auto;
+        }
+        /* Dérriére */
+        
+        .flip-box-back2 {
+            background-color: #222f51;
+            color: #8dcaff;
+            transform: rotateY(180deg);
+        }
+        
+        .flip-box-back2 img {
+            width: 80px;
+            height: 80px;
+            margin-right: 2%;
+        }
+        
+        .flip-box-back2 img:hover {
+            width: 100px;
+            height: 100px;
+        }
+        /************ Séparateur palette couleur ***********/
+        /************************ REALISATIONS & PASSIONS ************************/
+        /*** TITRE ***/
+        
+        #R_et_P h2 {
+            text-align: center;
+            padding: 1em 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        #R_et_P h2:before,
+        #R_et_P h2:after {
+            content: "";
+            width: 3em;
+            border-bottom: rgba(0, 0, 0, 0.5) solid;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        #R_et_P h2:before {
+            margin-left: -40%;
+            margin-right: 1em;
+            width: 20%;
+        }
+        
+        #R_et_P h2:after {
+            margin-right: -40%;
+            margin-left: 1em;
+            width: 20%;
+        }
+        /*** TEXTE ***/
+        
+        #R_et_P h3 {
+            text-align: center;
+            color: #8dcaff;
+            font-size: 150%;
+        }
+        /*** BLOCK3 ***/
+        
+        .block3 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        /* .image:hover .année {
+background-color: rgba(128, 128, 128, 0.6);
+width: 100%;
+height: 100%;
+margin-left: 0%;
+
+}
+*/
+        /*** JEUX VIDEO ***/
+        
+        .JeuxVidéo {
+            width: 30%;
+            height: 300px;
+            box-shadow: 20px 20px 20px rgb(117, 112, 112);
+        }
+        
+        .JeuxVidéo img {
+            width: 100%;
+            height: 100%;
+        }
+        /*** JUDO ***/
+        
+        .Judo {
+            width: 30%;
+            height: 300px;
+            margin-left: 2%;
+            margin-right: 2%;
+            box-shadow: 20px 20px 20px rgb(117, 112, 112);
+            overflow-y: hidden;
+        }
+        
+        .Judo img {
+            width: 100%;
+            height: 120%;
+        }
+        /*** BIENFAITS DU SPORT ***/
+        
+        .BienfaitsDuSport {
+            width: 30%;
+            height: 300px;
+            box-shadow: 20px 20px 20px rgb(117, 112, 112);
+        }
+        
+        .BienfaitsDuSport img {
+            width: 100%;
+            height: 100%;
+        }
+        /*** BOUTON ***/
+        
+        button {
+            background-color: #8dcaff;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            margin-left: 45%;
+        }
+        /************************ FOOTER ************************/
+        
+        footer {
+            background-color: #222f51;
+            color: white;
+            padding: 2% 3% 0%;
+        }
+        /*** BLOCK4 ***/
+        
+        .block4 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        
+        .block4a {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            width: 70%;
+        }
+        /*** Colone 1 ***/
+        
+        .information {
+            width: 35%;
+        }
+        
+        .information h3 {}
+        /*** Colone 2 ***/
+        
+        .contact {
+            width: 65%;
+            margin-top: 2%;
+        }
+        
+        .contact .adresse {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .contact .adresse img {
+            width: 40px;
+            height: 40px;
+            margin-right: 2%;
+        }
+        
+        .contact .téléphone {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .contact .téléphone img {
+            width: 40px;
+            height: 40px;
+            margin-right: 2%;
+        }
+        
+        .contact .mail {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .contact .mail img {
+            width: 40px;
+            height: 40px;
+            margin-right: 2%;
+        }
+        
+        .block4b {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            width: 30%;
+        }
+        /*** Colone 3 ***/
+        
+        .CV {
+            width: 40%;
+        }
+        
+        .CV h3 {}
+        
+        .CV .documents {}
+        
+        .CV .documents .word {
+            width: 40px;
+            height: 40px;
+            margin-right: 10%;
+        }
+        
+        .CV .documents .pdf {
+            width: 40px;
+            height: 40px;
+        }
+        /*** Colone 4 ***/
+        
+        .RESEAUX {
+            width: 40%;
+        }
+        
+        .RESEAUX h3 {}
+        
+        .RESEAUX .sociaux {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .RESEAUX .sociaux .github {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .RESEAUX .sociaux .image1 {
+            margin-right: 15%;
+        }
+        
+        .RESEAUX .sociaux .github:hover {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .RESEAUX .sociaux .linkedIn {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .RESEAUX .sociaux .linkedIn:hover {
+            width: 60px;
+            height: 60px;
+        }
+        /*** Copyright et droit ***/
+        
+        .C_et_D {
+            margin-left: 1%;
+        }
