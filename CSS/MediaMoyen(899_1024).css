@@ -74,8 +74,16 @@
         padding: 1% 0% 0%;
     }
     /*** BLOCK4 ***/
-    .block4 {
+    .block4a {
+        width: 70%;
+    }
+    .block4b {
+        width: 30%;
         flex-direction: column;
+    }
+    .CV,
+    .RESEAUX {
+        width: 100%;
     }
 }
 

@@ -1,121 +1,161 @@
-                /*** <320  -  <479   -   <768 ***/
-                /* <768 */
-                
-                @media screen and (max-width: 768px) {
-                    #menuDéroulant {
-                        display: block;
-                    }
-                    #menuInitial {
-                        display: none;
-                    }
-                    ul li img {
-                        margin-inline-start: auto;
-                        width: 150%;
-                    }
-                    /****** Menu de droite ******/
-                    .TéléchargerHeader,
-                    .TelHeader,
-                    .MailHeader,
-                    .AdresseHeader {
-                        display: none;
-                    }
-                    header .Montdidier,
-                    header .Fréjus {
-                        width: 110px;
-                        height: 158px;
-                    }
-                    header .Moi {
-                        width: 110px;
-                        height: 175px;
-                    }
-                    header .Métier {
-                        width: 80%;
-                        height: auto;
-                    }
-                    #auto_text {
-                        font-size: 130%;
-                    }
-                    .ouverture {
-                        margin-top: 60%;
-                    }
-                    .block1 {
-                        flex-direction: column;
-                    }
-                    .DevWeb,
-                    .MNS,
-                    .EPS,
-                    .BAC {
-                        width: 90%;
-                    }
+            /*** <320  -  <479   -   <768 ***/
+            /* <768 */
+            
+            @media screen and (max-width: 768px) {
+                #menuDéroulant {
+                    display: block;
                 }
-                /* <479 */
-                
-                @media screen and (max-width: 479px) {
-                    #menuDéroulant {
-                        display: block;
-                    }
-                    #menuInitial {
-                        display: none;
-                    }
-                    ul li img {
-                        margin-inline-start: auto;
-                        width: 150%;
-                    }
-                    /****** Menu de droite ******/
-                    .TéléchargerHeader,
-                    .TelHeader,
-                    .MailHeader,
-                    .AdresseHeader {
-                        display: none;
-                    }
-                    header .Montdidier,
-                    header .Fréjus {
-                        display: none;
-                    }
-                    header .Moi {
-                        width: 110px;
-                        height: 175px;
-                    }
-                    header .Métier {
-                        width: 100%;
-                        height: auto;
-                    }
-                    #auto_text {
-                        font-size: 120%;
-                    }
-                    #menu {
-                        width: 200px;
-                        padding: 20px;
-                    }
-                    #menu li {
-                        padding: 10px 0;
-                        font-size: 15px;
-                    }
-                    .qui {
-                        font-size: 110%;
-                    }
-                    .ouverture {
-                        width: 40%;
-                        font-size: large;
-                        margin-top: 65%;
-                    }
-                    .ouverture2 {
-                        width: 40%;
-                        font-size: large;
-                    }
-                    .outils {
-                        width: 80%;
-                    }
+                #menuInitial {
+                    display: none;
                 }
-                /* <320 */
-                
-                @media screen and (max-width: 320px) {
-                    #menuDéroulant img {
-                        width: 50%;
-                        top: -40px;
-                    }
-                    #menuDéroulant {
-                        top: 20px;
-                        left: 20px;
-                    }
+                ul li img {
+                    margin-inline-start: auto;
+                    width: 150%;
                 }
+                /****** Menu de droite ******/
+                .TéléchargerHeader,
+                .TelHeader,
+                .MailHeader,
+                .AdresseHeader {
+                    display: none;
+                }
+                header .Montdidier,
+                header .Fréjus {
+                    width: 110px;
+                    height: 158px;
+                }
+                header .Moi {
+                    width: 110px;
+                    height: 175px;
+                }
+                header .Métier {
+                    width: 80%;
+                    height: auto;
+                }
+                #auto_text {
+                    font-size: 130%;
+                }
+                .ouverture {
+                    margin-top: 60%;
+                }
+                .block1 {
+                    flex-direction: column;
+                }
+                .DevWeb,
+                .MNS,
+                .EPS,
+                .BAC {
+                    width: 90%;
+                }
+                .block4 {
+                    flex-direction: column;
+                }
+                .block4a {
+                    flex-direction: column;
+                    padding-left: 20%;
+                    width: 100%;
+                    text-align: start;
+                }
+                .information {
+                    width: 100%;
+                    padding-left: 20%;
+                }
+                .contact {
+                    width: 100%;
+                }
+                .block4b {
+                    flex-direction: row;
+                    width: 100%;
+                }
+                .CV,
+                .RESEAUX {
+                    width: 50%;
+                }
+            }
+            /* <479 */
+            
+            @media screen and (max-width: 479px) {
+                #menuDéroulant {
+                    display: block;
+                }
+                #menuInitial {
+                    display: none;
+                }
+                ul li img {
+                    margin-inline-start: auto;
+                    width: 150%;
+                }
+                /****** Menu de droite ******/
+                .TéléchargerHeader,
+                .TelHeader,
+                .MailHeader,
+                .AdresseHeader {
+                    display: none;
+                }
+                header .Montdidier,
+                header .Fréjus {
+                    display: none;
+                }
+                header .Moi {
+                    width: 110px;
+                    height: 175px;
+                }
+                header .Métier {
+                    width: 100%;
+                    height: auto;
+                }
+                #auto_text {
+                    font-size: 120%;
+                }
+                #menu {
+                    width: 200px;
+                    padding: 20px;
+                }
+                #menu li {
+                    padding: 10px 0;
+                    font-size: 15px;
+                }
+                .qui {
+                    font-size: 110%;
+                }
+                .ouverture {
+                    width: 40%;
+                    font-size: large;
+                    margin-top: 65%;
+                }
+                .ouverture2 {
+                    width: 40%;
+                    font-size: large;
+                }
+                .outils {
+                    width: 80%;
+                }
+                .block4a {
+                    padding-left: 10%;
+                    margin-right: 3%;
+                }
+                .information {
+                    padding-left: 10%;
+                }
+                .contact {
+                    width: 90%;
+                }
+                .block4 h4 {
+                    font-size: 70%;
+                }
+            }
+            /* <320 */
+            
+            @media screen and (max-width: 320px) {
+                #menuDéroulant img {
+                    width: 50%;
+                    top: -40px;
+                }
+                #menuDéroulant {
+                    top: 20px;
+                    left: 20px;
+                }
+                .information {
+                    padding-left: 5%;
+                }
+            }

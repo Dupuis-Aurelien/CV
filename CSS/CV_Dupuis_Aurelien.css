@@ -309,10 +309,7 @@
         }
         
         .titre {
-            background-attachment: fixed;
-            background-image: url(../ancien/image/font1.jpeg);
-            background-repeat: no-repeat;
-            color: white;
+            color: #222f51;
         }
         
         hr .avant {
@@ -759,7 +756,7 @@ margin-left: 0%;
             color: white;
             padding: 2% 3% 0%;
         }
-        /*** BLOCK4 ***/
+        /********* BLOCK4 *********/
         
         .block4 {
             display: flex;
@@ -767,13 +764,14 @@ margin-left: 0%;
             flex-wrap: wrap;
             text-align: center;
         }
+        /****** block4a ******/
         
         .block4a {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             text-align: center;
-            width: 70%;
+            width: 55%;
         }
         /*** Colone 1 ***/
         
@@ -824,18 +822,20 @@ margin-left: 0%;
             height: 40px;
             margin-right: 2%;
         }
+        /****** Block4b ******/
         
         .block4b {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             text-align: center;
-            width: 30%;
+            width: 45%;
         }
         /*** Colone 3 ***/
         
         .CV {
-            width: 40%;
+            width: 50%;
+            margin-left: none;
         }
         
         .CV h3 {}
@@ -855,7 +855,7 @@ margin-left: 0%;
         /*** Colone 4 ***/
         
         .RESEAUX {
-            width: 40%;
+            width: 50%;
         }
         
         .RESEAUX h3 {}
