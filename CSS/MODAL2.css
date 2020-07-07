@@ -17,6 +17,10 @@
     border-radius: 15px;
 }
 
+.ouverture2:hover {
+    background-color: #a8d3f8;
+}
+
 
 /* Pour bien ce positionner en fonction de élément flottant */
 

@@ -35,17 +35,21 @@
                 #auto_text {
                     font-size: 130%;
                 }
+                .raisons {
+                    height: 300px;
+                }
+                .raisons h2 {
+                    font-size: 100%;
+                }
+                .raisons p {
+                    font-size: 50%;
+                }
+                .qualités {
+                    font-size: 120%;
+                    height: 300px;
+                }
                 .ouverture {
-                    margin-top: 60%;
-                }
-                .block1 {
-                    flex-direction: column;
-                }
-                .DevWeb,
-                .MNS,
-                .EPS,
-                .BAC {
-                    width: 90%;
+                    margin-top: 40%;
                 }
                 .block4 {
                     flex-direction: column;
@@ -62,6 +66,9 @@
                 }
                 .contact {
                     width: 100%;
+                }
+                button {
+                    width: 30%;
                 }
                 .block4b {
                     flex-direction: row;
@@ -118,14 +125,36 @@
                 .qui {
                     font-size: 110%;
                 }
+                .raisons {
+                    height: 300px;
+                }
+                .raisons h2 {
+                    font-size: 90%;
+                }
+                .raisons p {
+                    font-size: 50%;
+                }
+                .qualités {
+                    font-size: 120%;
+                    height: 300px;
+                }
                 .ouverture {
+                    margin-top: 50%;
                     width: 40%;
                     font-size: large;
-                    margin-top: 65%;
                 }
                 .ouverture2 {
                     width: 40%;
                     font-size: large;
+                }
+                .block1 {
+                    flex-direction: column;
+                }
+                .DevWeb,
+                .MNS,
+                .EPS,
+                .BAC {
+                    width: 90%;
                 }
                 .outils {
                     width: 80%;
@@ -140,6 +169,12 @@
                 .contact {
                     width: 90%;
                 }
+                button {
+                    width: 50%;
+                }
+                button a {
+                    font-size: medium;
+                }
                 .block4 h4 {
                     font-size: 70%;
                 }
@@ -149,13 +184,26 @@
             @media screen and (max-width: 320px) {
                 #menuDéroulant img {
                     width: 50%;
-                    top: -40px;
+                    top: -50px;
                 }
-                #menuDéroulant {
-                    top: 20px;
-                    left: 20px;
+                .raisons h2 {
+                    font-size: 80%;
+                }
+                .raisons p {
+                    font-size: 40%;
+                    margin-top: -20%;
+                }
+                .qualités {
+                    font-size: 120%;
+                    height: 300px;
+                }
+                .ouverture {
+                    margin-top: 60%;
                 }
                 .information {
                     padding-left: 5%;
+                }
+                button {
+                    width: 60%;
                 }
             }
