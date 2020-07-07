@@ -1,8 +1,8 @@
         #menuDéroulant {
             display: block;
             position: relative;
-            top: 50px;
-            left: 50px;
+            top: 40px;
+            left: 40px;
             z-index: 1;
             -webkit-user-select: none;
             user-select: none;
@@ -57,7 +57,7 @@
             background: rgba(181, 216, 246, 0.95);
             transform-origin: 0% 0%;
             transform: translate(-105%, 0);
-            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
         }
         
         #menu li {
@@ -84,7 +84,39 @@
         }
         
         nav {
-            background-color: rgba(34, 47, 81, 0.4);
+            margin-bottom: 6.5%;
+            overflow: hidden;
+            animation-name: descend;
+            animation-duration: 0.5s;
+            animation-delay: 2.0s;
+            animation-fill-mode: both;
+        }
+        
+        @keyframes descend {
+            0% {
+                -webkit-transform: translateY(-100%);
+            }
+            100% {
+                -webkit-transform: translateX(0);
+            }
+        }
+        
+        @keyframes descend {
+            0% {
+                -moz-transform: translateY(-100%);
+            }
+            100% {
+                -moz-transform: translateX(0);
+            }
+        }
+        
+        @keyframes descend {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
         }
         
         ul {
@@ -93,8 +125,8 @@
         
         li {
             display: inline-block;
-            margin-left: 3%;
-            margin-right: 3%;
+            margin-left: 4%;
+            margin-right: 4%;
             font-size: 100%;
             color: #222f51;
             justify-content: center;
@@ -111,7 +143,29 @@
         
         ul li img {
             vertical-align: middle;
-            width: 120%;
+            width: auto;
+            animation: boomboom 1.4s infinite;
+        }
+        
+        @keyframes boomboom {
+            0% {
+                transform: scale(1.7);
+            }
+            10% {
+                transform: scale(1.9);
+            }
+            15% {
+                transform: scale(1.7);
+            }
+            20% {
+                transform: scale(1.9);
+            }
+            25% {
+                transform: scale(1.7);
+            }
+            100% {
+                transform: scale(1.7);
+            }
         }
         /****** Menu de droite fixed **********/
         /* Visuel de base */
@@ -156,13 +210,20 @@
         }
         /* IMAGE */
         
-        .TéléchargerHeader img,
-        .TelHeader img,
-        .MailHeader img,
-        .AdresseHeader img {
+        .TéléchargerHeader img {
             width: 60px;
             height: 60px;
             text-align: start;
+            margin-left: -5%;
+        }
+        
+        .TelHeader img,
+        .MailHeader img,
+        .AdresseHeader img {
+            width: 50px;
+            height: 50px;
+            text-align: start;
+            margin-left: 4px;
         }
         /* SEPARATEUR */
         
@@ -209,25 +270,25 @@
         }
         /************************HEADER_IMAGE**********************/
         
-        header .photo_de_moi img {}
+        header .photo_de_moi {}
         
         header .Montdidier {
             width: 220px;
             height: 315px;
             top: 0px;
             right: 0px;
-            z-index: 20;
-            animation-name: Apparition3;
-            animation-duration: 8s;
-            animation-timing-function: ease-in;
+            z-index: 40;
+            animation: verslagauche 3.5s 1;
         }
         
-        @keyframes Apparition3 {
+        @keyframes verslagauche {
             0% {
-                opacity: 0%;
+                opacity: 0;
+                transform: translateX(50%);
             }
             100% {
-                opacity: 100%;
+                opacity: 1;
+                transform: translateX(0%);
             }
         }
         
@@ -240,14 +301,14 @@
             margin-bottom: 0.2%;
             margin-left: -3%;
             margin-right: -3%;
-            z-index: 0;
+            z-index: 99;
             animation-name: Apparition1;
             animation-duration: 7s;
         }
         
         @keyframes Apparition1 {
             0% {
-                opacity: 0%;
+                opacity: 100%;
             }
             100% {
                 opacity: 100%;
@@ -260,17 +321,17 @@
             top: 0px;
             right: 0px;
             z-index: 13;
-            animation-name: Apparition2;
-            animation-duration: 8s;
-            animation-timing-function: ease-in;
+            animation: versladroite 3.5s 1;
         }
         
-        @keyframes Apparition2 {
+        @keyframes versladroite {
             0% {
-                opacity: 0%;
+                opacity: 0;
+                transform: translateX(-50%);
             }
             100% {
-                opacity: 100%;
+                opacity: 1;
+                transform: translateX(0%);
             }
         }
         /***********************HEADER_Métier*********************/
@@ -283,11 +344,20 @@
             text-align: center;
             vertical-align: middle;
             color: white;
-            margin-top: 2%;
+            animation-name: grand;
+            animation-fill-mode: both;
+            animation-delay: 2.5s;
+            animation-duration: 1.5s;
+            margin-top: -2.2%;
+            z-index: 3200;
+            position: relative;
         }
         
         #auto_text {
             padding-top: 10px;
+            padding-bottom: 10px;
+            z-index: 3300;
+            position: relative;
         }
         /*********************QUI_suis-je ?**********************/
         
