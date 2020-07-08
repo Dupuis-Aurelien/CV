@@ -4,7 +4,6 @@
 /* Bouton pour ouvrir le modal*/
 
 .ouverture {
-    text-align: center;
     text-decoration: none;
     margin: auto;
     display: flex;
@@ -15,7 +14,6 @@
     color: #222f51;
     border: #a8d3f8 2px solid;
     border-radius: 15px;
-    margin-top: 45%;
 }
 
 .ouverture1:hover {
