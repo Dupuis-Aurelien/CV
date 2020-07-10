@@ -49,6 +49,8 @@
 @media screen and (max-width: 1149px) {
     li {
         font-size: 80%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     /****** Menu de droite ******/
     .TéléchargerHeader,
@@ -81,8 +83,11 @@
     .AdresseHeader {
         margin-top: 26%;
     }
-    .ouverture {
-        margin-top: 50%;
+    .chapeau::after,
+    .rouage::before,
+    .ampoule::after,
+    .palette::before {
+        width: 70%;
     }
     footer {
         padding: 1% 0.8% 0%;
