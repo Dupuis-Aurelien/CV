@@ -59,6 +59,7 @@
                 .ampoule::after,
                 .palette::before {
                     width: 55%;
+                    margin-top: -20%;
                 }
                 .block4 {
                     flex-direction: column;
