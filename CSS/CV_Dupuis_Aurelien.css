@@ -722,8 +722,14 @@ hr .avant {
     width: 20%;
 }
 
-#compétences {
-    li
+.Techniques img {
+    width: 200PX;
+    height: 200px;
+}
+
+.Humaines img {
+    width: 200PX;
+    height: 200px;
 }
 
 
