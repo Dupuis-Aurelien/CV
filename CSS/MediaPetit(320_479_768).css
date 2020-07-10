@@ -54,13 +54,6 @@
                     font-size: 120%;
                     height: 300px;
                 }
-                .chapeau::after,
-                .rouage::before,
-                .ampoule::after,
-                .palette::before {
-                    width: 55%;
-                    margin-top: -20%;
-                }
                 .block4 {
                     flex-direction: column;
                 }
@@ -180,12 +173,6 @@
                 }
                 button a {
                     font-size: medium;
-                }
-                .chapeau,
-                .rouage,
-                .ampoule,
-                .palette {
-                    display: none;
                 }
                 .block4 h4 {
                     font-size: 70%;

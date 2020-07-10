@@ -77,6 +77,7 @@
         <div class="photo_de_moi">
             <img class="Montdidier" src="image/moi/photoMontdidier.png" title="Montdidier" alt="Ombre moi et Montdidier" />
             <img class="Moi" src="image/moi/photoAURELIEN.png" alt="Ombre moi et Moi" />
+
             <img class="Fréjus" src="image/moi/photoFréjus.png" title="Fréjus" alt="Ombre moi et Fréjus" />
         </div>
         <div class="Métier">
@@ -88,10 +89,12 @@
 
     <section id="présentation">
         <div class="qui">
-            <div class="titre">
-                <h2>
-                    Qui suis-je ?
-                </h2>
+            <div class="gauche">
+                <div class="titre">
+                    <h2>
+                        Qui suis-je ?
+                    </h2>
+                </div>
                 <a class="ouverture" href="#oModal">> A propos</a>
             </div>
             <p><strong>DUPUIS Aurélien</strong>, 30 ans.</p>
@@ -125,29 +128,35 @@
             <div id="oModal" class="oModal">
                 <div>
                     <header>
-                        <a href="#fermer" title="Fermer la fenêtre" class="croix">X</a>
-                        <h2>A propos</h2>
+                        <div class="TitreModal">
+                            <a href="#fermer" title="Fermer la fenêtre" class="croix">X</a>
+                            <h2>A propos</h2>
+                        </div>
                     </header>
                     <section class="éléments">
-                        <div class="colone1">
-                            <h3>Né le :</h3>
-                            <h3>Nationalité :</h3>
-                            <h3>Niveau :</h3>
+                        <div class="colone1et2">
+                            <div class="colone1">
+                                <h3>Né le :</h3>
+                                <h3>Nationalité :</h3>
+                                <h3>Niveau :</h3>
+                            </div>
+                            <div class="colone2">
+                                <p>04/02/1990</p>
+                                <p>Française</p>
+                                <p>Bac +3</p>
+                            </div>
                         </div>
-                        <div class="colone2">
-                            <p>04/02/1990</p>
-                            <p>Française</p>
-                            <p>Bac +3</p>
-                        </div>
-                        <div class="colone3">
-                            <h3>Expériences :</h3>
-                            <h3>Spécialité :</h3>
-                            <h3>Emploi :</h3>
-                        </div>
-                        <div class="colone4">
-                            <p>Junior</p>
-                            <p>Développement Web et Web Mobile</p>
-                            <p>Recherche de stage en entreprise</p>
+                        <div class="colone3et4">
+                            <div class="colone3">
+                                <h3>Expériences :</h3>
+                                <h3>Spécialité :</h3>
+                                <h3>Emploi :</h3>
+                            </div>
+                            <div class="colone4">
+                                <p>Junior</p>
+                                <p>Développement Web et Web Mobile</p>
+                                <p>Recherche de stage en entreprise</p>
+                            </div>
                         </div>
                     </section>
                     <footer class="cf">
@@ -167,17 +176,16 @@
 
 
     <section id="formations">
-        <!-- Séparateur chapeau -->
-        <div class="chapeau">
-            <img class="chapeau2" src="image/Séparateur/Chapeau_Universitaire.png" alt="chapeau étudiant" />
-        </div>
 
         <!-- TITRE -->
 
-        <h2 class="titre">
-            FORMATIONS
-        </h2>
-
+        <div class="titre">
+            <img class="chapeau" src="image/Séparateur/Chapeau_Universitaire.png" alt="chapeau étudiant" />
+            <h2>
+                FORMATIONS
+            </h2>
+            <img class="chapeau" src="image/Séparateur/Chapeau_Universitaire.png" alt="chapeau étudiant" />
+        </div>
 
 
         <!-- BLOCKS -->
@@ -232,8 +240,10 @@
             <div id="oModal2" class="oModal2">
                 <div>
                     <header>
-                        <a href="#fermer2" title="Fermer la fenêtre" class="croix2">X</a>
-                        <h2>Mon expérience professionnelle</h2>
+                        <div class="TitreModal">
+                            <a href="#fermer2" title="Fermer la fenêtre" class="croix2">X</a>
+                            <h2>Mon expérience professionnelle</h2>
+                        </div>
                     </header>
                     <section class="éléments2">
                         <p><strong>2018-2019 :</strong> Maitre nageur</p>
@@ -254,16 +264,16 @@
     <!------------------------ COMPETENCES ------------------------>
 
     <section id="compétences">
-        <!-- Séparateur rouage -->
-        <div class="rouage">
-            <img class="rouage2" src="image/Séparateur/Rouage.png" alt="Rouage" />
-        </div>
 
         <!-- TITRE -->
 
-        <h2 class="titre">
-            COMPETENCES
-        </h2>
+        <div class="titre">
+            <img class="rouage" src="image/Séparateur/Rouage.png" alt="Rouage" />
+            <h2>
+                COMPETENCES
+            </h2>
+            <img class="rouage" src="image/Séparateur/Rouage.png" alt="Rouage" />
+        </div>
 
         <!-- BLOCKS -->
         <div>
@@ -294,19 +304,17 @@
     <!------------------------ CONNAISSANCES ------------------------>
 
     <section id="connaissances">
-        <!-- Séparateur rouage -->
-
-
-
-        <div class="ampoule">
-            <img class="ampoule2" src="image/Séparateur/Ampoule.png" alt="Ampoule" />
-        </div>
 
         <!-- TITRE -->
 
-        <h2 class="titre">
-            CONNAISSANCES
-        </h2>
+        <div class="titre">
+            <img class="ampoule" src="image/Séparateur/Ampoule.png" alt="Ampoule" />
+            <h2>
+                CONNAISSANCES
+            </h2>
+            <img class="ampoule" src="image/Séparateur/Ampoule.png" alt="Ampoule" />
+
+        </div>
 
         <!-- BLOCKS -->
 
@@ -383,17 +391,16 @@
     <!------------------------ REALISATIONS ET PASSIONS ------------------------>
 
     <section id="R_et_P">
-        <!-- Séparateur palette couleur -->
-
-        <div class="palette">
-            <img class="palette2" src="image/Séparateur/Palette_Peintre.png" alt="Palette de couleur" />
-        </div>
 
         <!-- TITRE -->
+        <div class="titre">
+            <img class="palette" src="image/Séparateur/Palette_Peintre.png" alt="Palette de couleur" />
+            <h2>
+                REALISATIONS & PASSIONS
+            </h2>
+            <img class="palette" src="image/Séparateur/Palette_Peintre.png" alt="Palette de couleur" />
+        </div>
 
-        <h2 class="titre">
-            REALISATIONS & PASSIONS
-        </h2>
         <h3>
             Voici 3 réalisations d'interfaces web statiques et adaptables basées sur mes passions
         </h3>

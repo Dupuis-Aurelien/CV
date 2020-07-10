@@ -120,10 +120,20 @@
     font-size: 120%;
 }
 
-.colone1 {
-    width: 31%;
+.colone1et2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
     font-weight: bold;
+    margin: auto;
 }
+
+.colone3et4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.colone1 {}
 
 .colone2 {
     margin-left: 7%;
@@ -136,7 +146,7 @@
 }
 
 .colone4 {
-    margin-left: 7%;
+    margin-left: 15%;
 }
 
 

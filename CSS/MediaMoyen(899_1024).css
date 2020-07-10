@@ -53,6 +53,9 @@
         font-size: 160%;
         width: 100%;
     }
+    .oModal section {
+        flex-direction: column;
+    }
     .droite {
         width: 100%;
         margin-top: -20%;
@@ -151,13 +154,5 @@
     .BienfaitsDuSport {
         width: 100%;
         margin: auto;
-    }
-    .chapeau img,
-    .rouage img,
-    .ampoule img,
-    .palette img {
-        width: 120px;
-        height: 120px;
-        margin-left: 2%;
     }
 }

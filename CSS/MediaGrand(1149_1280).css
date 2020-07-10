@@ -83,12 +83,6 @@
     .AdresseHeader {
         margin-top: 26%;
     }
-    .chapeau::after,
-    .rouage::before,
-    .ampoule::after,
-    .palette::before {
-        width: 70%;
-    }
     footer {
         padding: 1% 0.8% 0%;
     }
