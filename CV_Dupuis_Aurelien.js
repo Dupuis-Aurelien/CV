@@ -23,7 +23,8 @@ window.onload = function() {
         }
     });
 
-    // Effet smooth scrolling
+    /* Effet d'écriture fluide */
+
     $(document).ready(function() {
         $(".js-scrollTo").on("click", function() {
             var page = $(this).attr("href");

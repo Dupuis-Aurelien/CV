@@ -15,7 +15,6 @@
                     height: 250px;
                 }
                 ul li img {
-                    margin-inline-start: auto;
                     width: 170%;
                 }
                 /****** Menu de droite ******/
@@ -27,15 +26,16 @@
                 }
                 header .Montdidier,
                 header .Fréjus {
-                    width: 110px;
-                    height: 158px;
+                    width: 137px;
+                    height: 197px;
                 }
                 header .Moi {
-                    width: 110px;
-                    height: 175px;
+                    width: 137px;
+                    height: 218px;
                 }
                 header .Métier {
-                    width: 80%;
+                    width: 90%;
+                    margin-top: -4.2%;
                     height: auto;
                 }
                 #auto_text {
@@ -70,7 +70,7 @@
                 .contact {
                     width: 100%;
                 }
-                button {
+                #R_et_P .contacter {
                     width: 30%;
                 }
                 .block4b {
@@ -92,7 +92,6 @@
                     display: none;
                 }
                 ul li img {
-                    margin-inline-start: auto;
                     width: 150%;
                 }
                 /****** Menu de droite ******/
@@ -102,12 +101,18 @@
                 .AdresseHeader {
                     display: none;
                 }
+                header .Montdidier,
+                header .Fréjus {
+                    width: 95px;
+                    height: 137px;
+                }
                 header .Moi {
-                    width: 110px;
-                    height: 175px;
+                    width: 95px;
+                    height: 151px;
                 }
                 header .Métier {
                     width: 100%;
+                    margin-top: -6%;
                     height: auto;
                 }
                 #auto_text {
@@ -123,7 +128,7 @@
                     font-size: 15px;
                 }
                 .qui {
-                    font-size: 110%;
+                    font-size: 9%;
                 }
                 .raisons {
                     height: 300px;
@@ -168,10 +173,10 @@
                 .contact {
                     width: 90%;
                 }
-                button {
+                #R_et_P .contacter {
                     width: 50%;
                 }
-                button a {
+                #R_et_P .contacter a {
                     font-size: medium;
                 }
                 .block4 h4 {
@@ -189,6 +194,11 @@
                 header .Fréjus {
                     display: none;
                 }
+                header .Moi {
+                    width: 143px;
+                    height: 226px;
+                    margin-bottom: -1%;
+                }
                 .raisons h2 {
                     font-size: 80%;
                 }
@@ -203,7 +213,7 @@
                 .information {
                     padding-left: 5%;
                 }
-                button {
+                #R_et_P .contacter {
                     width: 60%;
                 }
             }

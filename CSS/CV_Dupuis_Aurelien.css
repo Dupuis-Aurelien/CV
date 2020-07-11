@@ -301,8 +301,11 @@ ul li a:hover {
 /* Texte du menu avec souris dessus */
 
 #menuDéroulant a:hover {
-    color: red;
+    text-decoration-line: underline;
 }
+
+
+/* Dimension de la zone cliquable pour le hamburger */
 
 #menuDéroulant input {
     display: block;
@@ -313,10 +316,7 @@ ul li a:hover {
     left: -5px;
     cursor: pointer;
     opacity: 0;
-    /* hide this */
     z-index: 2;
-    /* and place it over the hamburger */
-    -webkit-touch-callout: none;
 }
 
 
@@ -348,15 +348,16 @@ ul li a:hover {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
+
+/* Dimension du menu */
+
 #menu li {
     padding: 10px 10px;
     font-size: 18px;
 }
 
 
-/*
- * And let's slide it in from the left
- */
+/* Permet de pouvoir cliquer sur le hamburger */
 
 #menuDéroulant input:checked~ul {
     transform: none;
@@ -449,18 +450,14 @@ header .Fréjus {
 /***********************HEADER_Métier*********************/
 
 header .Métier {
-    width: 50%;
+    width: 55%;
     height: auto;
     background-color: #222f51;
     margin: auto;
     text-align: center;
     vertical-align: middle;
     color: white;
-    animation-name: grand;
-    animation-fill-mode: both;
-    animation-delay: 2.5s;
-    animation-duration: 1.5s;
-    margin-top: -2.5%;
+    margin-top: -2.7%;
     z-index: 3200;
     position: relative;
 }
@@ -477,8 +474,6 @@ header .Métier {
 
 #présentation {
     color: #222f51;
-    display: flex;
-    flex-direction: row;
     margin: 5% 5% 0%;
 }
 
@@ -489,6 +484,8 @@ header .Métier {
     width: 60%;
     margin-right: 5%;
     text-align: justify;
+    display: flex;
+    flex-direction: row;
 }
 
 .qui p {
@@ -498,10 +495,6 @@ header .Métier {
 .droite {
     width: 25%;
     margin-top: 10%;
-}
-
-hr .avant {
-    width: 1%;
 }
 
 
@@ -678,12 +671,12 @@ hr .avant {
 /* IMAGE */
 
 .Techniques img {
-    width: 200PX;
+    width: 200px;
     height: 200px;
 }
 
 .Humaines img {
-    width: 200PX;
+    width: 200px;
     height: 200px;
 }
 
@@ -884,7 +877,7 @@ margin-left: 0%;
 
 /*** BOUTON ***/
 
-button {
+#R_et_P .contacter {
     text-align: center;
     text-decoration: none;
     margin: auto;
@@ -900,11 +893,11 @@ button {
     background-color: white;
 }
 
-button:hover {
+#R_et_P .contacter:hover {
     background-color: #a8d3f8;
 }
 
-button a {
+#R_et_P .contacter a {
     text-decoration: none;
     color: #222f51;
     font-size: large;
@@ -1009,7 +1002,7 @@ footer {
 
 .CV {
     width: 50%;
-    margin-left: none;
+    margin-left: 0%;
 }
 
 .CV h3 {}

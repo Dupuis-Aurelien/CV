@@ -43,8 +43,6 @@
     }
     #présentation {
         color: #222f51;
-        display: flex;
-        flex-direction: column;
         margin-left: 5%;
         margin-right: 10%;
     }
@@ -52,6 +50,8 @@
     .qui {
         font-size: 160%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .oModal section {
         flex-direction: column;
@@ -129,6 +129,10 @@
     }
     .AdresseHeader {
         margin-top: 29%;
+    }
+    header .Métier {
+        margin-top: -3.3%;
+        width: 85%;
     }
     #auto_text {
         font-size: 150%;

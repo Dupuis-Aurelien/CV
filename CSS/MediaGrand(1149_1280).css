@@ -83,6 +83,10 @@
     .AdresseHeader {
         margin-top: 26%;
     }
+    header .Métier {
+        margin-top: -3%;
+        width: 70%;
+    }
     footer {
         padding: 1% 0.8% 0%;
     }
