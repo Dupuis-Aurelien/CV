@@ -21,11 +21,23 @@ body {
 .titre .rouage,
 .titre .ampoule,
 .titre .palette {
-    width: 50px;
-    height: 45px;
+    width: 75px;
+    height: 67px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 3%;
+}
+
+.titre .rouage,
+.titre .ampoule {
+    width: 100px;
+    height: 90px;
+    margin-top: 1.5%;
+}
+
+.titre .palette {
+    width: 60px;
+    height: 55px;
 }
 
 
@@ -170,7 +182,10 @@ ul li a:hover {
 }
 
 
-/* HOVER */
+/*** HOVER ***/
+
+
+/* CV en PDF */
 
 .TéléchargerHeader:hover {
     margin-left: 78%;
@@ -178,17 +193,26 @@ ul li a:hover {
     transition-duration: 0.9s;
 }
 
+
+/* Numéro de téléphone */
+
 .TelHeader:hover {
     margin-left: 80%;
     transition: ease-in;
     transition-duration: 0.9s;
 }
 
+
+/* Mon adresse email */
+
 .MailHeader:hover {
     margin-left: 68%;
     transition: ease-in;
-    transition-duration: 1.6s;
+    transition-duration: 1.5s;
 }
+
+
+/* Mon adresse postale */
 
 .AdresseHeader:hover {
     margin-left: 80%;
@@ -372,7 +396,9 @@ ul li a:hover {
 
 /* div avec les 2 ombres et ma photo */
 
-header .photo_de_moi {}
+header .photo_de_moi {
+    margin-top: 10%;
+}
 
 
 /* Ombre Montdidier */
@@ -478,27 +504,36 @@ header .Métier {
 }
 
 
-/*************************Droite************************/
+/*** Titre ***/
+
+
+/**** block qui ***/
 
 .qui {
-    width: 60%;
-    margin-right: 5%;
     text-align: justify;
     display: flex;
     flex-direction: row;
 }
 
-.qui p {
+
+/* Texte de présentation */
+
+.GaucheQui {
     font-size: 160%;
-}
-
-.droite {
-    width: 25%;
-    margin-top: 10%;
+    width: 55%;
+    margin-right: 5%;
 }
 
 
-/*************5 Bonnes raisons de me choisir************/
+/* Les raisons de me choisir */
+
+.DroiteRaisons {
+    width: 30%;
+    margin-top: -5%;
+}
+
+
+/*************4 Bonnes raisons de me choisir************/
 
 .flip-box1 {
     width: 100%;
@@ -546,6 +581,9 @@ header .Métier {
     transform: rotateY(180deg);
 }
 
+
+/* Devant */
+
 .raisons {
     border-top: 50px solid #8dcaff;
     box-shadow: 2px 2px 20px darkgray;
@@ -555,19 +593,23 @@ header .Métier {
     padding-left: 10%;
     padding-right: 10%;
     line-height: 250%;
-    height: 360px;
+    height: 320px;
 }
+
+
+/* derrière */
 
 .qualités {
     border-top: 50px solid #8dcaff;
     box-shadow: 2px 2px 20px darkgray;
     font-size: 170%;
     margin-top: 20%;
-    height: 360px;
+    height: 320px;
+    width: 110%;
 }
 
 
-/*********************En savoir plus**********************/
+/*** En savoir plus ***/
 
 .raisons p {
     float: right;
@@ -1010,8 +1052,8 @@ footer {
 .CV .documents {}
 
 .CV .documents .word {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-right: 10%;
 }
 
@@ -1037,8 +1079,8 @@ footer {
 }
 
 .RESEAUX .sociaux .github {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 
 .RESEAUX .sociaux .image1 {

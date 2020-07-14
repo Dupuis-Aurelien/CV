@@ -41,37 +41,29 @@
     #auto_text {
         font-size: 170%;
     }
-    #présentation {
+    #qui {
         color: #222f51;
         margin-left: 5%;
         margin-right: 10%;
+        font-size: 55%;
     }
-    /*************************Droite************************/
-    .qui {
-        font-size: 160%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+    .DroiteRaisons {
+        margin-left: 5%;
+    }
+    .GaucheQui {
+        font-size: 120%;
+    }
+    /* Devant */
+    .raisons {
+        height: 260px;
+        font-size: 120%;
+    }
+    /* derrière */
+    .qualités {
+        height: 300px;
     }
     .oModal section {
         flex-direction: column;
-    }
-    .droite {
-        width: 100%;
-        margin-top: -20%;
-        margin-bottom: 0%;
-    }
-    .flip-box1 {
-        height: 300px;
-    }
-    .qualités {
-        font-size: 170%;
-        margin-top: 20%;
-        height: 400px;
-    }
-    /*********************En savoir plus**********************/
-    .raisons p {
-        font-size: 70%;
     }
     footer {
         padding: 1% 0% 0%;
@@ -94,6 +86,9 @@
 /* <899 */
 
 @media screen and (max-width: 899px) {
+    .titre img {
+        display: none;
+    }
     li {
         font-size: 60%;
         margin-left: 2%;
@@ -141,6 +136,12 @@
         font-size: 60%;
         margin-left: 2%;
         margin-right: 1.5%;
+    }
+    #qui {
+        font-size: 75%;
+    }
+    .ouverture {
+        width: 50%;
     }
     .block2 {
         flex-direction: column;
