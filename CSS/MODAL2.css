@@ -67,7 +67,7 @@
 /* Façon dont le modal arrive */
 
 .oModal2:target>div {
-    margin: 10% auto;
+    margin: 1% auto;
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -109,13 +109,15 @@
     text-decoration: none;
     color: black;
     font-size: 150%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
 
 
 /* Modal section */
 
 .oModal2 section {
-    padding: 5%;
+    padding: 3%;
     font-size: 120%;
 }
 

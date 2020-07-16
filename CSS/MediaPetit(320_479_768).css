@@ -60,6 +60,9 @@
                 width: 60%;
                 margin: auto;
             }
+            .flip-box1 {
+                display: none;
+            }
             /* Devant */
             .raisons {
                 height: 200px;
@@ -76,6 +79,16 @@
             .raisons p {
                 font-size: 50%;
                 float: none;
+            }
+            .BasQualités {
+                display: block;
+            }
+            .BasQualités .sous-titre {
+                background-color: #8dcaff;
+            }
+            .T_H {
+                flex-direction: column;
+                margin-left: 30%;
             }
             .block4 {
                 flex-direction: column;
