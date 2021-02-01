@@ -213,7 +213,7 @@
     /* SEPARATEUR */
     
     .hrblanc {
-        color: #222f51;
+        color: white;
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -250,11 +250,11 @@
         font-size: 140%;
     }
     
-    .écriture {
+    .ecriture {
         padding-top: 2%;
     }
     
-    .AdresseHeader .écriture {
+    .AdresseHeader .ecriture {
         padding-top: 0%;
     }
     /****** Menu Hamburger ******/
@@ -609,6 +609,7 @@
         text-align: center;
     }
     /*** VIE (voir MODAL2) ***/
+    /*-VFW_Dl8]NVz*Y4H*/
     /************************ COMPETENCES ************************/
     /*** TITRE ***/
     /* T_H = Techniques et Humaines */
@@ -681,8 +682,8 @@
     /*** Outils Développement ***/
     
     .flip-box2 {
-        width: 28%;
-        height: 400px;
+        width: 43.8%;
+        height: 500px;
         perspective: 1000px;
         /* Pour avoir l'effet 3D */
         margin-left: 2%;
@@ -702,6 +703,10 @@
     
     .flip-box2:hover .flip-box-inner2 {
         transform: rotateY(180deg);
+    }
+    
+    .flip-box2:hover .outils h3 {
+        color: white;
     }
     /* Positionner l'avant et l'arriére */
     
@@ -734,7 +739,7 @@
     
     .outils {
         height: 20%;
-        width: 60%;
+        width: 70%;
         background-color: rgba(255, 255, 255, 0.7);
         display: flex;
     }
@@ -748,19 +753,19 @@
     /* Dérriére */
     
     .flip-box-back2 {
-        background-color: #222f51;
         color: #8dcaff;
         transform: rotateY(180deg);
+        border: 1px solid #222f51;
     }
     
     .flip-box-back2 img {
-        width: 80px;
+        width: 120px;
         height: 80px;
         margin: 2%;
     }
     
     .flip-box-back2 img:hover {
-        width: 100px;
+        width: 130px;
         height: 100px;
     }
     /************************ REALISATIONS & PASSIONS ************************/
