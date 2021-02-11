@@ -12,19 +12,19 @@
     .TelHeader,
     .MailHeader,
     .AdresseHeader {
-        margin-left: 93%;
+        right: -49vw;
     }
     .TéléchargerHeader:hover {
-        margin-left: 69%;
+        right: -24vw;
     }
     .TelHeader:hover {
-        margin-left: 72%;
+        right: -28vw;
     }
     .MailHeader:hover {
-        margin-left: 55%;
+        right: -10vw;
     }
     .AdresseHeader:hover {
-        margin-left: 60%;
+        right: -16vw;
     }
     .TéléchargerHeader {
         margin-top: 2%;
@@ -95,19 +95,19 @@
     .TelHeader,
     .MailHeader,
     .AdresseHeader {
-        margin-left: 92%;
+        right: -48vw;
     }
     .TéléchargerHeader:hover {
-        margin-left: 64%;
+        right: -19vw;
     }
     .TelHeader:hover {
-        margin-left: 68%;
+        right: -24vw;
     }
     .MailHeader:hover {
-        margin-left: 48%;
+        right: -3vw;
     }
     .AdresseHeader:hover {
-        margin-left: 55%;
+        right: -9vw;
     }
     .TéléchargerHeader {
         margin-top: 2%;

@@ -23,7 +23,7 @@
         height: 67px;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 3%;
+        margin-top: 2%;
     }
     
     .titre .rouage,
@@ -162,7 +162,7 @@
     .MailHeader,
     .AdresseHeader {
         width: 55%;
-        right: -50vw;
+        right: -52vw;
         text-align: start;
         position: fixed;
         display: flex;
@@ -171,15 +171,6 @@
         /*background-color: white;*/
         transition: ease-in;
         transition-duration: 0.5s;
-    }
-    
-    @media screen and (min-width: 1500px) {
-        .TéléchargerHeader,
-        .TelHeader,
-        .MailHeader,
-        .AdresseHeader {
-            right: -51vw;
-        }
     }
     /*** HOVER ***/
     /* CV en PDF */
@@ -192,23 +183,65 @@
     /* Numéro de téléphone */
     
     .TelHeader:hover {
-        margin-left: 80%;
+        right: -40vw;
         transition: ease-in;
         transition-duration: 0.8s;
     }
     /* Mon adresse email */
     
     .MailHeader:hover {
-        margin-left: 68%;
+        right: -32vw;
         transition: ease-in;
         transition-duration: 1.3s;
     }
     /* Mon adresse postale */
     
     .AdresseHeader:hover {
-        margin-left: 72%;
+        right: -35vw;
         transition: ease-in;
         transition-duration: 1.3s;
+    }
+    
+    @media screen and (max-width: 1500px) {
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -50vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -32vw;
+        }
+        .TelHeader:hover {
+            right: -35vw;
+        }
+        .MailHeader:hover {
+            right: -23vw;
+        }
+        .AdresseHeader:hover {
+            right: -27vw;
+        }
+    }
+    
+    @media screen and (max-width: 1850px) {
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -51vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -35vw;
+        }
+        .TelHeader:hover {
+            right: -37vw;
+        }
+        .MailHeader:hover {
+            right: -27vw;
+        }
+        .AdresseHeader:hover {
+            right: -30vw;
+        }
     }
     /* IMAGE */
     
@@ -868,15 +901,15 @@ margin-left: 0%;
     /* Gray Scale */
     
     .block3 figure img {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
     
     .block3 figure:hover img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
     }
     /*** JEUX VIDEO ***/
     
