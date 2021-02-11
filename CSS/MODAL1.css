@@ -120,15 +120,11 @@
     padding: 5%;
     display: flex;
     flex-direction: row;
-    font-size: 120%;
 }
 
 .colone1et2 {
     display: flex;
     flex-direction: row;
-    width: 50%;
-    font-weight: bold;
-    margin: auto;
 }
 
 .colone3et4 {
@@ -139,17 +135,21 @@
 .colone1 {}
 
 .colone2 {
-    margin-left: 7%;
+    margin-left: 5%;
     line-height: 150%;
 }
 
-.colone3 {
-    margin-left: 15%;
-    width: 31%;
+@media screen and (min-width: 1024px) {
+    .colone1et2,
+    .colone3et4 {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 .colone4 {
-    margin-left: 15%;
+    margin-left: 5%;
+    line-height: 150%;
 }
 
 
