@@ -466,70 +466,31 @@
     
     .DroiteRaisons {
         width: 30%;
-        margin-top: -5%;
+        overflow: hidden;
     }
     /*************4 Bonnes raisons de me choisir************/
     
-    .flip-box1 {
-        width: 100%;
-        height: 300px;
-        perspective: 1000px;
-        -webkit-perspective: 1000px;
-        /* Pour avoir l'effet 3D */
-    }
-    /* Pour faire la rotation et définir de devant et l'arriére */
-    
-    .flip-box-inner1 {
-        position: relative;
-        width: 100%;
-        height: 100%;
+    .DroiteRaisons h3 {
+        margin: auto;
         text-align: center;
-        -webkit-transition: -webkit-transform 0.8s;
-        transition: -webkit-transform 0.8s;
-        -o-transition: transform 0.8s;
-        transition: transform 0.8s;
-        transition: transform 0.8s, -webkit-transform 0.8s;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-    }
-    /* Rotation horizontale avec le hover*/
-    
-    .flip-box1:hover .flip-box-inner1 {
-        -webkit-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-    }
-    /* Positionner l'avant et l'arriére */
-    
-    .flip-box-front1,
-    .flip-box-back1 {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        /* Safari */
-        backface-visibility: hidden;
+        padding: 2%;
     }
     
-    .flip-box-back1 {
-        background-color: #222f51;
-        color: #8dcaff;
-        border-top: 50px solid #8dcaff;
-        -webkit-transform: rotateY(180deg);
-        transform: rotateY(180deg);
+    .raisons2 {
+        animation: déroulement 8s infinite linear;
+        font-size: 120% !important;
+        color: #5b9ad1
     }
-    /* Devant */
     
-    .raisons {
-        border-top: 50px solid #8dcaff;
-        -webkit-box-shadow: 2px 2px 20px darkgray;
-        box-shadow: 2px 2px 20px darkgray;
-        font-size: 140%;
-        margin-top: 20%;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-        line-height: 250%;
-        height: 320px;
+    @keyframes déroulement {
+        from {
+            width: 100%;
+            margin-left: 100%;
+        }
+        to {
+            width: 100%;
+            margin-left: -35%;
+        }
     }
     /* derrière */
     
@@ -537,36 +498,7 @@
         border-top: 50px solid #8dcaff;
         box-shadow: 2px 2px 20px darkgray;
         -webkit-box-shadow: 2px 2px 20px darkgray;
-        font-size: 170%;
-        margin-top: 20%;
-        height: 320px;
-        width: 110%;
-    }
-    /*** En savoir plus ***/
-    
-    .raisons p {
-        float: right;
-        padding-right: 3%;
-        font-size: 70%;
-    }
-    
-    .raisons:hover p {
-        color: #7dc2ff;
-    }
-    /* Qualités en petit format */
-    
-    .BasQualités {
-        display: none;
-        margin-top: 5%;
-        text-align: center;
-        margin-left: 16%;
-        padding-top: -5%;
-    }
-    
-    .BasQualités .les4 {
-        border: 1px solid #8dcaff;
-        border-radius: 15px;
-        margin-top: -10%;
+        font-size: 120%;
     }
     /*********************A propos (voir CSS MODAL1)***********************/
     /****************** FORMATIONS **********************/
@@ -866,7 +798,7 @@
     
     @media screen and (max-width: 900px) {
         .column div {
-            width: 70%;
+            width: 100%;
         }
         figure:hover+span {
             left: 10vw;
@@ -874,15 +806,11 @@
         }
     }
     
-    .column div:first-child {
-        margin-left: 0;
-    }
-    
     .column div span {
         position: absolute;
         bottom: 20px;
         left: 0;
-        z-index: -1;
+        z-index: 10;
         display: block;
         width: 100%;
         margin: 0;

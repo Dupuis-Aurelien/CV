@@ -12,7 +12,7 @@
                 display: none;
             }
             #menu {
-                height: 250px;
+                height: 310px;
             }
             ul li img {
                 width: 170%;
@@ -60,18 +60,15 @@
                 width: 60%;
                 margin: auto;
             }
+            .qualités {
+                margin-top: 5%;
+            }
             .flip-box1 {
                 display: none;
             }
             /* Devant */
             .raisons {
                 height: 200px;
-            }
-            /* derrière */
-            .qualités {
-                height: 280px;
-                width: 110%;
-                font-size: 150%;
             }
             .raisons h2 {
                 font-size: 100%;
@@ -156,7 +153,7 @@
             }
             #menu {
                 width: 200px;
-                height: 210px;
+                height: 280px;
                 padding: 20px;
             }
             #menu li {
@@ -166,15 +163,14 @@
             .qui {
                 font-size: 90%;
             }
+            .qualités {
+                width: 100%;
+            }
             .raisons h2 {
                 font-size: 80%;
             }
             .raisons p {
                 font-size: 50%;
-            }
-            .qualités {
-                font-size: 120%;
-                height: 220px;
             }
             .ouverture {
                 width: 48%;
@@ -241,9 +237,6 @@
             .raisons p {
                 font-size: 40%;
                 margin-top: -20%;
-            }
-            .qualités {
-                font-size: 120%;
             }
             .information {
                 padding-left: 5%;
