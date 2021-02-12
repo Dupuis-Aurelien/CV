@@ -1165,3 +1165,282 @@ margin-left: 0%;
         margin-bottom: 1%;
         font-size: 130%;
     }
+    /* 
+    *
+    *
+    **************** MODAL 1 
+    *
+    *
+    */
+    /************ A PROPOS ************/
+    /* Bouton pour ouvrir le modal*/
+    
+    .ouverture {
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        padding: 1%;
+        font-size: x-large;
+        color: #222f51;
+        border: #a8d3f8 2px solid;
+        border-radius: 15px;
+        margin-top: 5%;
+    }
+    
+    .ouverture:hover {
+        background-color: #a8d3f8;
+        color: white;
+    }
+    /* Pour bien ce positionner en fonction de élément flottant */
+    
+    .cf:before,
+    .cf:after {
+        content: "";
+    }
+    
+    .cf:after {
+        clear: both;
+        display: flex;
+    }
+    /* Permet de cacher le modal avec opacity: 0 */
+    
+    .oModal {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+        /* ease-in = Lent sur le début et accélère de plus en plus vers la fin. */
+    }
+    /* Pour faire venir le Modal */
+    
+    .oModal:target {
+        opacity: 1;
+        pointer-events: auto;
+        /* Permet de pointer avec la souris */
+    }
+    /* Façon dont le modal arrive */
+    
+    .oModal:target>div {
+        margin: 10% auto;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal */
+    
+    .oModal>div {
+        max-width: 900px;
+        position: relative;
+        margin: 1% auto;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        box-shadow: 2px 2px 20px black;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal header */
+    
+    .oModal header {
+        border-bottom: 1px solid #222f51;
+        border-radius: 5px 5px 0 0;
+        background: #a8d3f8;
+    }
+    
+    .oModal h2 {
+        font-size: 150%;
+        padding-top: 2%;
+    }
+    
+    .croix {
+        float: right;
+        text-decoration: none;
+        color: black;
+        font-size: 150%;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    /* Modal section */
+    
+    .oModal section {
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .colone1et2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .colone3et4 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .colone1 {}
+    
+    .colone2 {
+        margin-left: 5%;
+        line-height: 150%;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .colone1et2,
+        .colone3et4 {
+            width: 50%;
+            margin: auto;
+        }
+    }
+    
+    .colone4 {
+        margin-left: 5%;
+        line-height: 150%;
+    }
+    /* Modal Footer */
+    
+    .btn {
+        text-decoration: none;
+        color: white;
+        margin-left: 48%;
+    }
+    
+    .oModal footer {
+        padding: 15px;
+        border-radius: 0 0 5px 5px;
+    }
+    /* 
+    *
+    *
+    **************** MODAL 2 
+    *
+    *
+    */
+    /************ FORMATIONS ************/
+    /* Bouton pour ouvrir le modal*/
+    
+    .ouverture2 {
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        padding: 1%;
+        font-size: x-large;
+        color: #222f51;
+        border: #a8d3f8 2px solid;
+        border-radius: 15px;
+    }
+    
+    .ouverture2:hover {
+        background-color: #a8d3f8;
+        color: white;
+    }
+    /* Pour bien ce positionner en fonction de élément flottant */
+    
+    .cf2:before,
+    .cf2:after {
+        content: "";
+    }
+    
+    .cf2:after {
+        clear: both;
+        display: flex;
+    }
+    /* Permet de cacher le modal avec opacity: 0 */
+    
+    .oModal2 {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+        /* ease-in = Lent sur le début et accélère de plus en plus vers la fin. */
+    }
+    /* Pour faire venir le Modal */
+    
+    .oModal2:target {
+        opacity: 1;
+        pointer-events: auto;
+        /* Permet de pointer avec la souris */
+    }
+    /* Façon dont le modal arrive */
+    
+    .oModal2:target>div {
+        margin: 1% auto;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal */
+    
+    .oModal2>div {
+        max-width: 900px;
+        position: relative;
+        margin: 1% auto;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        box-shadow: 2px 2px 20px black;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal header */
+    
+    .oModal2 header {
+        border-bottom: 1px solid #222f51;
+        border-radius: 5px 5px 0 0;
+        background: #a8d3f8;
+    }
+    
+    .oModal2 h2 {
+        font-size: 150%;
+        padding-top: 1%;
+    }
+    
+    .croix2 {
+        float: right;
+        text-decoration: none;
+        color: black;
+        font-size: 150%;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    /* Modal section */
+    
+    .oModal2 section {
+        padding: 3%;
+    }
+    /* Modal Footer */
+    
+    .btn2 {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .oModal2 footer {
+        padding: 15px;
+        border-radius: 0 0 5px 5px;
+    }
