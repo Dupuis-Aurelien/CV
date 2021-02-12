@@ -513,7 +513,7 @@
     .raisons2 {
         animation: déroulement 8s infinite linear;
         font-size: 120% !important;
-        color: #5b9ad1
+        color: #2d6a9e
     }
     
     @keyframes déroulement {
@@ -878,7 +878,7 @@
     
     #passions h3 {
         text-align: center;
-        color: #8dcaff;
+        color: #2d6a9e;
         font-size: 150%;
         margin: auto;
         margin-bottom: 2%;
