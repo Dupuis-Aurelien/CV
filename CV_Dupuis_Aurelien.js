@@ -47,7 +47,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 540) {
+        if (posImg - posCurseur < 670) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -64,7 +64,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 530) {
+        if (posImg - posCurseur < 660) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -80,7 +80,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 520) {
+        if (posImg - posCurseur < 650) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -97,7 +97,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 510) {
+        if (posImg - posCurseur < 640) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -113,7 +113,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 500) {
+        if (posImg - posCurseur < 630) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -130,7 +130,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 490) {
+        if (posImg - posCurseur < 620) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -146,7 +146,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 480) {
+        if (posImg - posCurseur < 610) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -163,7 +163,7 @@ window.onload = function() {
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 470) {
+        if (posImg - posCurseur < 600) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
