@@ -155,3 +155,10 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
     }
     window.addEventListener("scroll", effet);
 })();
+
+
+var isImgVisible = function(lazyImage) {
+    return lazyImage.getBoundingClientRect().top <= window.innerHeight &&
+        lazyImage.getBoundingClientRect().bottom >= 0 &&
+        getComputedStyle(lazyImage).display !== "none"
+}
