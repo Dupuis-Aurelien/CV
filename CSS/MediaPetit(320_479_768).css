@@ -20,7 +20,7 @@
             #menu {
                 height: 310px;
             }
-            ul li img {
+            li img {
                 width: 170%;
             }
             /****** Menu de droite ******/
@@ -136,7 +136,7 @@
             #menuInitial {
                 display: none;
             }
-            ul li img {
+            li img {
                 width: 150%;
             }
             /****** Menu de droite ******/
