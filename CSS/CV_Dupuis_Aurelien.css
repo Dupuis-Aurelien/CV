@@ -49,6 +49,7 @@
         letter-spacing: 2px;
         background: linear-gradient(to right, #222f51, #8dcaff);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     /*****************************HEADER**********************/
