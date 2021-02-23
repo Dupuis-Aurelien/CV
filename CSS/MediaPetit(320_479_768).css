@@ -2,6 +2,12 @@
         /* <768 */
         
         @media screen and (max-width: 768px) {
+            header .Moi,
+            header .Montdidier,
+            header .Fréjus {
+                width: 20vw;
+                margin-bottom: 1%;
+            }
             #menuDéroulant {
                 display: block;
             }
@@ -25,21 +31,13 @@
                 display: none;
             }
             header .photo_de_moi {
-                margin-top: -10%;
-            }
-            header .Montdidier,
-            header .Fréjus {
-                width: 137px;
-                height: 197px;
-            }
-            header .Moi {
-                width: 137px;
-                height: 218px;
+                margin-top: -45%;
             }
             header .Métier {
                 width: 90%;
                 margin-top: -4.2%;
                 height: auto;
+                z-index: -1;
             }
             #auto_text {
                 font-size: 130%;
@@ -115,9 +113,23 @@
                 width: 50%;
             }
         }
+        /* <600 */
+        
+        @media screen and (min-width: 479px) and (max-width: 600px) {
+            header .Moi,
+            header .Montdidier,
+            header .Fréjus {
+                margin-bottom: 0%;
+            }
+        }
         /* <479 */
         
         @media screen and (max-width: 479px) {
+            header .Moi,
+            header .Montdidier,
+            header .Fréjus {
+                width: 25vw;
+            }
             #menuDéroulant {
                 display: block;
             }
@@ -134,19 +146,13 @@
             .AdresseHeader {
                 display: none;
             }
-            header .Montdidier,
-            header .Fréjus {
-                width: 95px;
-                height: 137px;
-            }
-            header .Moi {
-                width: 95px;
-                height: 151px;
-            }
             header .Métier {
                 width: 100%;
                 margin-top: -6%;
                 height: auto;
+            }
+            header .photo_de_moi {
+                margin-top: -55%;
             }
             #auto_text {
                 font-size: 120%;
@@ -210,6 +216,15 @@
             }
             .block4 h4 {
                 font-size: 70%;
+            }
+        }
+        /* <400 */
+        
+        @media screen and (min-width: 320px) and (max-width: 400px) {
+            header .Moi,
+            header .Montdidier,
+            header .Fréjus {
+                margin-bottom: 0%;
             }
         }
         /* <320 */

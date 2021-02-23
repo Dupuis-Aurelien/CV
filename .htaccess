@@ -15,7 +15,7 @@ Header set Feature-Policy "camera 'none'; fullscreen 'self'; geolocation *; micr
 # NGINX #
  <IfModule mod_expires.c>
 
- ExpiresActive On
+ ExpiresActive Off
 
  ExpiresByType image/jpg "access plus 1 year"
  ExpiresByType image/jpeg "access plus 1 year"
@@ -33,7 +33,7 @@ Header set Feature-Policy "camera 'none'; fullscreen 'self'; geolocation *; micr
 
 # APACHE SERVERS #
  <IfModule mod_expires.c>
-  ExpiresActive On
+  ExpiresActive Off
 
  # Images
   ExpiresByType image/jpeg "access plus 1 year"
@@ -65,3 +65,37 @@ Header set Feature-Policy "camera 'none'; fullscreen 'self'; geolocation *; micr
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
  ## EXPIRES CACHING ##
+
+
+## COMPRESSIONS GZIP PAGE (APACHE) ##
+
+ AddOutputFilterByType application DEFLATE / java
+AddOutputFilterByType application DEFLATE / rss +
+
+AddOutputFilterByType application DEFLATE / vnd.ms-fontobject
+AddOutputFilterByType application DEFLATE / rss +
+
+AddOutputFilterByType application DEFLATE / vnd.ms-fontobject
+AddOutputFilterByType application DEFLATE / x-police DEFLATE
+application / x-font-opentype
+AddOutputFilterByType application DEFLATE / x-font-otf
+AddOutputFilterByType application DEFLATE / x-font-truetype
+AddOutputFilterByType application DEFLATE / x-font-ttf
+AddOutputFilterByType application DEFLATE / x-java
+AddOutputFilterByType application DEFLATE / xhtml +
+
+AddOutputFilterByType application DEFLATE /
+
+AddOutputFilterByType DEFLATE police / opentype
+AddOutputFilterByType DEFLATE police / otf
+AddOutputFil terByType DEFLATE font / ttf
+AddOutputFilterByType DEFLATE image / svg +
+
+AddOutputFilterByType DEFLATE image / x-icon
+AddOutputFilterByType DEFLATE texte / css
+AddOutputFilterByType DEFLATE text / html
+AddOutputFilterByType DEFLATE text / html
+AddOutputFilterByType DEFLATE text / html
+AddOutputByType DEFLATE text / html
+AddOutType DEFLATE br> AddOutputFilterByType D EFLATE text / plain
+AddOutputFilterByType DEFLATE text /

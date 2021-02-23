@@ -3,16 +3,11 @@
 
 <head>
 
-    <meta property="og:title" content="Portfolio Dupuis Aurélien - Développeur web et web mobile 2021" />
-    <meta property="og:url" content="https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html" />
-    <meta property="og:site_name" content="Magicprog.fr" />
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="CSS/CV_Dupuis_Aurelien.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/MODAL1.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/MODAL2.css" />
+
     <link rel="stylesheet" type="text/css" href="CSS//MediaGrand(1149_1280).css" />
     <link rel="stylesheet" type="text/css" href="CSS//MediaMoyen(899_1024).css" />
     <link rel="stylesheet" type="text/css" href="CSS//MediaPetit(320_479_768).css" />
@@ -20,9 +15,21 @@
     <link rel="icon" href="image/moi/logo.png" sizes="32x32" />
 
     <title>
-        Portfolio Dupuis Aurélien - Développeur web et web mobile 2021
+        Portfolio Dupuis Aurélien Développeur web et web mobile 2021
     </title>
-    <meta name="description" content="Voici mon portfolio afin de vous montré un apperçu de mes compétences. Diplôme de développeur web et web mobile obtenu sur Fréjus." />
+    <meta name="description" content="Je vous présente mon portfolio afin de vous montrez un apperçu de mes compétences. Diplôme de développeur web et web mobile obtenu sur Fréjus en 2021." />
+
+
+    <!-- Open Graph meta (Facebook, Linkedin) -->
+    <meta property="og:title" content="Portfolio Dupuis Aurélien Développeur web et web mobile 2021" />
+    <meta property="og:url" content="https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html" />
+    <meta property="og:site_name" content="https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html" />
+    <meta property="og:description" content="Je vous présente mon portfolio afin de vous montrez un apperçu de mes compétences. Diplôme de développeur web et web mobile obtenu sur Fréjus en 2021.">
+    <meta property="og:image" content="https://dupuis-aurelien.github.io/CV/image/moi/logo.png" />
+    <meta property="author" content="Dupuis Aurélien" />
+
+
+
 </head>
 
 <body>
@@ -42,7 +49,8 @@
             <!-- Menu hamburger -->
             <div class="hamburger" role="navigation">
                 <div id="menuDéroulant">
-                    <input type="checkbox" />
+                    <label for="burger">Menu</label>
+                    <input id="burger" type="checkbox" />
 
                     <span></span>
                     <span></span>
@@ -161,12 +169,15 @@
                 4 BONNES RAISONS <br /> DE ME CHOISIR
             </h3>
 
-            <div class="raisons2">
-                <h5>Rigoureux</h5>
-                <h5>Autonome</h5>
-                <h5>Persévérant</h5>
-                <h5>Logique</h5>
-            </div>
+
+            <ul class="raisons2">
+                <li><strong>Rigoureux</strong></li>
+                <li><strong>Autonome</strong></li>
+                <li><strong>Persévérant</strong></li>
+                <li><strong>Logique</strong></li>
+            </ul>
+
+
         </div>
 
 
@@ -178,15 +189,15 @@
                     <div class="TitreModal">
                         <a href="#fermer" title="Fermer la fenêtre" class="croix">X</a
           >
-          <h2>A propos</h2>
+          <p class="bold p-top-2">A propos</p>
         </div>
       </header>
       <section class="éléments">
         <div class="colone1et2">
           <div class="colone1">
-            <h3>Né le :</h3>
-            <h3>Nationalité :</h3>
-            <h3>Niveau :</h3>
+            <p>Né le :</p>
+            <p>Nationalité :</p>
+            <p>Niveau :</p>
           </div>
           <div class="colone2">
             <p>04/02/1990</p>
@@ -196,9 +207,9 @@
         </div>
         <div class="colone3et4">
           <div class="colone3">
-            <h3>Expériences :</h3>
-            <h3>Spécialité :</h3>
-            <h3>Emploi :</h3>
+            <p>Expériences :</p>
+            <p>Spécialité :</p>
+            <p>Emploi :</p>
           </div>
           <div class="colone4">
             <p>Junior</p>
@@ -277,7 +288,7 @@
                             <a href="https://fr.wikipedia.org/wiki/HTML5 " target="_blank " rel="noopener noreferrer "><img src="LogoWeb/html.png" title="HTML " alt="logo HTML5 " /></a>
                         <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade " target="_blank " rel="noopener noreferrer "><img src="LogoWeb/CSS.svg.png" title="CSS " alt="Logo CSS3 " /></a>
                         <a href="https://fr.wikipedia.org/wiki/JavaScript " target="_blank " rel="noopener noreferrer "><img src="image/connaissances/Logos/JavaScript.png" title="JavaScript " alt="Logo JavaScript " /></a>
-                        <a href="https://fr.wikipedia.org/wiki/PHP " target="_blank " rel="noopener noreferrer "><img src="image/connaissances/Logos/PHP.png " title="JavaScriptHP " alt="Logo PHP " /></a>
+                        <a href="https://fr.wikipedia.org/wiki/PHP " target="_blank " rel="noopener noreferrer "><img src="image/connaissances/Logos/PHP.png " title="PHP " alt="Logo PHP " /></a>
                         <a href="https://fr.wikipedia.org/wiki/MySQL" target="_blank " rel="noopener noreferrer "><img src="LogoWeb/mysql.png" title="MySQL" alt="Logo MySQL" /></a>
 
                         <div class="flex">
@@ -357,24 +368,24 @@
 
             <div class="site column">
                 <div>
-                    <a href="http://new.saint-maximin.fr/" target="_blank" rel="noopener noreferrer"><img width="500px" height="auto" src="image/experiences/site-saint-maximin.png" alt="Accueil site Saint-Maximin-La-Sainte-Baume"></a>
-                    <h3>
+                    <a href="http://new.saint-maximin.fr/" target="_blank" rel="noopener noreferrer"><img src="image/experiences/site-saint-maximin.png" alt="Accueil site Saint-Maximin-La-Sainte-Baume"></a>
+                    <strong>
                         TWINEO <br><i>(Stage de 6 semaines)</i>
-                    </h3>
+                    </strong>
                     <p>Réalisation en CakePHP 3</p>
                 </div>
                 <div>
-                    <a href="http://judo-saint-raphael.org/" target="_blank" rel="noopener noreferrer"><img width="500px" height="auto" src="image/experiences/site-judo-saint-raphael.png" alt="Acceuil site Judo-saint-raphael"></a>
-                    <h3>
+                    <a href="http://judo-saint-raphael.org/" target="_blank" rel="noopener noreferrer"><img src="image/experiences/site-judo-saint-raphael.png" alt="Acceuil site Judo-saint-raphael"></a>
+                    <strong>
                         TWINEO <br><i>(Stage de 6 semaines)</i>
-                    </h3>
+                    </strong>
                     <p>Amélioration du visuel</p>
                 </div>
                 <div>
-                    <a href="https://institutdouceurdebebe.com/" target="_blank" rel="noopener noreferrer"><img width="500px" height="auto" src="image/experiences/site-douceur-de-bebe.png" alt="Acceuil site Institut douceur de bébé"></a>
-                    <h3>
+                    <a href="https://institutdouceurdebebe.com/" target="_blank" rel="noopener noreferrer"><img src="image/experiences/site-douceur-de-bebe.png" alt="Acceuil site Institut douceur de bébé"></a>
+                    <strong>
                         Institut douceur de bébé
-                    </h3>
+                    </strong>
                     <p>
                         Amélioration du référencement (SEO)
                     </p>
@@ -385,34 +396,34 @@
             <div class="hover02 column">
                 <div>
                     <figure>
-                        <a href="http://new.saint-maximin.fr/" target="_blank" rel="noopener noreferrer"><img width="500px" height="auto" src="image/experiences/site-saint-maximin.png" alt="Accueil site Saint-Maximin-La-Sainte-Baume 2"></a>
+                        <a href="http://new.saint-maximin.fr/" target="_blank" rel="noopener noreferrer"><img src="image/experiences/site-saint-maximin.png" alt="Accueil site Saint-Maximin-La-Sainte-Baume 2"></a>
                     </figure>
                     <span>
-                    <h3>
+                    <strong>
                       TWINEO <br><i>(Stage de 6 semaines)</i>
-                    </h3>
+                    </strong>
                     <p>Réalisation en CakePHP 3</p>
                     </span>
                 </div>
                 <div>
                     <figure>
-                        <a href="http://judo-saint-raphael.org/" target="_blank" rel="noopener noreferrer"><img width="500px" height="auto" src="image/experiences/site-judo-saint-raphael.png" alt="Acceuil site Judo-saint-raphael 2"></a>
+                        <a href="http://judo-saint-raphael.org/" target="_blank" rel="noopener noreferrer"><img src="image/experiences/site-judo-saint-raphael.png" alt="Acceuil site Judo-saint-raphael 2"></a>
                     </figure>
                     <span>
-                      <h3>
+                      <strong>
                         TWINEO <br><i>(Stage de 6 semaines)</i>
-                      </h3>
+                      </strong>
                       <p>Amélioration du visuel</p>
                     </span>
                 </div>
                 <div>
                     <figure>
-                        <a href="https://institutdouceurdebebe.com/" target="_blank" rel="noopener noreferrer"><img width="500px" height="auto" src="image/experiences/site-douceur-de-bebe.png" alt="Acceuil site Institut douceur de bébé 2"></a>
+                        <a href="https://institutdouceurdebebe.com/" target="_blank" rel="noopener noreferrer"><img src="image/experiences/site-douceur-de-bebe.png" alt="Acceuil site Institut douceur de bébé 2"></a>
                     </figure>
                     <span>
-                      <h3>
+                      <strong>
                         Institut douceur de bébé
-                      </h3>
+                      </strong>
                       <p>
                           Amélioration du référencement (SEO)
                       </p>
@@ -441,31 +452,31 @@
                 <div class="DevWeb">
                     <div class="image">
                         <div class="année">
-                            <h3>2020</h3>
+                            <p>2020</p>
                         </div>
                     </div>
-                    <h3>DEVELOPPEMENT WEB ET WEB MOBILE</h3>
-                    <h4>MODE 83 (FREJUS(83))</h4>
+                    <p class="bold">DEVELOPPEMENT WEB ET WEB MOBILE</p>
+                    <p>MODE 83 (FREJUS(83))</p>
                     <p>Niveau V (bac+2)</p>
                 </div>
                 <div class="MNS">
                     <div class="image">
                         <div class="année">
-                            <h3>2017</h3>
+                            <p>2017</p>
                         </div>
                     </div>
-                    <h3>MAITRE NAGEUR SAUVETEUR</h3>
-                    <h4>FORMATION SUD (NARBONNE(11))</h4>
+                    <p class="bold">MAITRE NAGEUR SAUVETEUR</p>
+                    <p>FORMATION SUD (NARBONNE(11))</p>
                     <p>Obtention du diplôme BPJEPS AAN</p>
                 </div>
                 <div class="EPS">
                     <div class="image">
                         <div class="année">
-                            <h3>2014</h3>
+                            <p>2014</p>
                         </div>
                     </div>
-                    <h3>PROFESSEUR D'EPS</h3>
-                    <h4>UNIVERSITE JULES VERNES (AMIENS(80))</h4>
+                    <p class="bold">PROFESSEUR D'EPS</p>
+                    <p>UNIVERSITE JULES VERNES (AMIENS(80))</p>
                     <p>
                         Obtention de la licence STAPS, spécialité éducation et motricité
                     </p>
@@ -474,11 +485,11 @@
                 <div class="BAC">
                     <div class="image">
                         <div class="année">
-                            <h3>2009</h3>
+                            <p>2009</p>
                         </div>
                     </div>
-                    <h3>BACCALAUREAT SCIENTIFIQUE</h3>
-                    <h4>LYCEE JEAN RACINE (MONTDIDIER(80))</h4>
+                    <p class="bold">BACCALAUREAT SCIENTIFIQUE</p>
+                    <p>LYCEE JEAN RACINE (MONTDIDIER(80))</p>
                     <p>Spécialité Science de la Vie et de la Terre</p>
                 </div>
 
@@ -488,7 +499,7 @@
                             <div class="TitreModal">
                                 <a href="#fermer2" title="Fermer la fenêtre" class="croix2">X</a
           >
-          <h2>Mon expérience professionnelle</h2>
+          <p class="bold p-top-2">Mon expérience professionnelle</p>
         </div>
                             
                     </header>
@@ -526,9 +537,9 @@
                 <img class="palette " src="image/Séparateur/Palette-Peintre.png " alt="Palette de couleur 2" />
             </div>
 
-            <h3 class="center">
+            <p class="center">
                 Voici 3 réalisations d'interfaces web statiques et adaptables basées sur mes passions (HTML - CSS - BOOTSTRAP)
-            </h3>
+            </p>
 
 
             <div class="block3">
@@ -580,15 +591,15 @@
                     <div class="contact ">
                         <div class="adresse ">
                             <img src="image/footer/logoadresse.png " alt="Logo adresse " />
-                            <h4>675, rue du Dr Donnadieu 83600 Fréjus</h4>
+                            <p>675, rue du Dr Donnadieu 83600 Fréjus</p>
                         </div>
                         <div class="téléphone ">
                             <img src="image/footer/LogoTéléphone.png " alt="Logo téléphone " />
-                            <h4>06.74.15.14.16</h4>
+                            <p>06.74.15.14.16</p>
                         </div>
                         <div class="mail ">
                             <img src="image/footer/LogoMail.png " alt="Logo mail " />
-                            <h4>dupuis.aurelien.eps@outlook.fr</h4>
+                            <p>dupuis.aurelien.eps@outlook.fr</p>
                         </div>
                     </div>
                 </div>
@@ -631,8 +642,8 @@
 
         </footer>
 
-
         <script src="CV_Dupuis_Aurelien.js "></script>
+
 </body>
 
 </html>
