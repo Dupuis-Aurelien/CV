@@ -504,7 +504,7 @@
     
     .raisons2 li {
         animation: déroulement 8s infinite linear;
-        font-size: 120% !important;
+        font-size: 120%;
         color: #2d6a9e;
         list-style-type: none;
         padding-top: 3%;
