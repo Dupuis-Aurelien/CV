@@ -48,8 +48,8 @@
         margin: 0;
         letter-spacing: 2px;
         background: linear-gradient(to right, #222f51, #8dcaff);
-        -webkit-background-clip: text;
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     /*****************************HEADER**********************/
@@ -73,26 +73,12 @@
     @keyframes descend {
         0% {
             -webkit-transform: translateY(-100%);
-        }
-        100% {
-            -webkit-transform: translateX(0);
-        }
-    }
-    
-    @keyframes descend {
-        0% {
             -moz-transform: translateY(-100%);
-        }
-        100% {
-            -moz-transform: translateX(0);
-        }
-    }
-    
-    @keyframes descend {
-        0% {
             transform: translateY(-100%);
         }
         100% {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
             transform: translateX(0);
         }
     }

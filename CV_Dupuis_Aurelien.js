@@ -25,11 +25,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 
 (function() {
     var fig = document.querySelectorAll(".liste-1")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 650) {
+        if (posTxt - posCurseur < 650) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -42,11 +42,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 
 (function() {
     var fig = document.querySelectorAll(".liste-2")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 640) {
+        if (posTxt - posCurseur < 640) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -58,11 +58,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 })();
 (function() {
     var fig = document.querySelectorAll(".liste-3")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 630) {
+        if (posTxt - posCurseur < 630) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -75,11 +75,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 
 (function() {
     var fig = document.querySelectorAll(".liste-4")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 620) {
+        if (posTxt - posCurseur < 620) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -91,11 +91,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 })();
 (function() {
     var fig = document.querySelectorAll(".liste-5")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 610) {
+        if (posTxt - posCurseur < 610) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -108,11 +108,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 
 (function() {
     var fig = document.querySelectorAll(".liste-6")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 600) {
+        if (posTxt - posCurseur < 600) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -124,11 +124,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 })();
 (function() {
     var fig = document.querySelectorAll(".liste-7")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 590) {
+        if (posTxt - posCurseur < 590) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
@@ -141,11 +141,11 @@ var interval = setInterval(extraire, 120); // On declanche le timer et on le gar
 
 (function() {
     var fig = document.querySelectorAll(".liste-8")[0];
-    var posImg = fig.offsetTop;
+    var posTxt = fig.offsetTop;
 
     function effet() {
         var posCurseur = this.pageYOffset;
-        if (posImg - posCurseur < 580) {
+        if (posTxt - posCurseur < 580) {
             fig.style.left = 0;
             fig.style.opacity = 1;
         } else {
