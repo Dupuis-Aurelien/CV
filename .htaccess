@@ -1,4 +1,4 @@
-add_header X-Frame-Options sameorigin always;
+
 
 ## SECURITE HEADERS ##
 <IfModule mod_headers.c>
@@ -12,28 +12,6 @@ Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 Header set Feature-Policy "camera 'none'; fullscreen 'self'; geolocation *; microphone 'self' https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html"
 
 <IfModule mod_headers.c>
-
-
-
-
-# BEGIN Cache-Control Headers
-<IfModule mod_headers.c>
- <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
- Header set Cache-Control "max-age=2592000, public"
- </FilesMatch>
- <FilesMatch "\.(js)$">
- Header set Cache-Control "max-age=2592000, private"
- </FilesMatch>
-<filesMatch "\.(html|htm)$">
-Header set Cache-Control "max-age=604800, public"
-</filesMatch>
-# Disable caching for scripts and other dynamic files
-<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-Header unset Cache-Control
-</FilesMatch>
-</IfModule>
-# END Cache-Control Headers
-
 
 # BEGIN Expire headers
 <IfModule mod_expires.c>
@@ -56,8 +34,23 @@ Header unset Cache-Control
  ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
 </IfModule>
 
-
-
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+ <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+ Header set Cache-Control "max-age=2592000, public"
+ </FilesMatch>
+ <FilesMatch "\.(js)$">
+ Header set Cache-Control "max-age=2592000, private"
+ </FilesMatch>
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>
+# Disable caching for scripts and other dynamic files
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+</IfModule>
+# END Cache-Control Headers
 
 
 ## COMPRESSIONS GZIP PAGE (APACHE) ##
