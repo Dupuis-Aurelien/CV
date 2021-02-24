@@ -7,7 +7,7 @@
     /* La div avec les titres h2 et les petites icones */
     
     .titre {
-        margin-top: 5%;
+        margin-top: 8%;
         margin-bottom: 1%;
         display: flex;
         flex-direction: row;
@@ -32,12 +32,6 @@
     .titre .ampoule {
         width: 4%;
         height: 4%;
-    }
-    
-    .titre .Tête,
-    .titre .palette {
-        width: 3%;
-        height: 3%;
     }
     /* Titre h2 mais pas ceux des modals */
     
@@ -187,48 +181,6 @@
         right: -35vw;
         transition: ease-in;
         transition-duration: 1.3s;
-    }
-    
-    @media screen and (max-width: 1500px) {
-        .TéléchargerHeader,
-        .TelHeader,
-        .MailHeader,
-        .AdresseHeader {
-            right: -50vw;
-        }
-        .TéléchargerHeader:hover {
-            right: -32vw;
-        }
-        .TelHeader:hover {
-            right: -35vw;
-        }
-        .MailHeader:hover {
-            right: -23vw;
-        }
-        .AdresseHeader:hover {
-            right: -27vw;
-        }
-    }
-    
-    @media screen and (max-width: 1850px) {
-        .TéléchargerHeader,
-        .TelHeader,
-        .MailHeader,
-        .AdresseHeader {
-            right: -51vw;
-        }
-        .TéléchargerHeader:hover {
-            right: -35vw;
-        }
-        .TelHeader:hover {
-            right: -37vw;
-        }
-        .MailHeader:hover {
-            right: -27vw;
-        }
-        .AdresseHeader:hover {
-            right: -30vw;
-        }
     }
     /* IMAGE */
     
@@ -500,6 +452,7 @@
         margin: auto;
         text-align: center;
         padding: 2%;
+        background-clip: ;
     }
     
     .raisons2 li {
@@ -551,15 +504,6 @@
         margin: 2%;
         padding: 2%;
         padding-top: 1%;
-    }
-    
-    @media screen and (max-width: 1200px) {
-        .DevWeb,
-        .MNS,
-        .EPS,
-        .BAC {
-            width: 32%;
-        }
     }
     /*** Images ***/
     
@@ -775,15 +719,6 @@
         display: none;
     }
     
-    @media screen and (max-width: 1200px) {
-        .hover02 {
-            display: none;
-        }
-        .site {
-            display: block;
-        }
-    }
-    
     .hover02 figure img {
         height: auto;
         width: 35vw;
@@ -818,16 +753,6 @@
         height: auto;
         margin: 0 0 0 25px;
         padding: 0;
-    }
-    
-    @media screen and (max-width: 900px) {
-        .column div {
-            width: 100%;
-        }
-        figure:hover+span {
-            left: 10vw;
-            opacity: 1;
-        }
     }
     
     .column div span {
@@ -974,12 +899,6 @@ margin-left: 0%;
     
     #passions .sms {
         display: none;
-    }
-    
-    @media screen and (max-width: 778px) {
-        #passions .sms {
-            display: block;
-        }
     }
     /************************ FOOTER ************************/
     
@@ -1292,19 +1211,9 @@ margin-left: 0%;
         flex-direction: row;
     }
     
-    .colone1 {}
-    
     .colone2 {
         margin-left: 5%;
         line-height: 150%;
-    }
-    
-    @media screen and (min-width: 1024px) {
-        .colone1et2,
-        .colone3et4 {
-            width: 50%;
-            margin: auto;
-        }
     }
     
     .colone4 {
