@@ -1201,14 +1201,12 @@ margin-left: 0%;
         flex-direction: row;
     }
     
-    .colone1et2 {
-        display: flex;
-        flex-direction: row;
-    }
-    
+    .colone1et2,
     .colone3et4 {
         display: flex;
         flex-direction: row;
+        width: 50%;
+        margin: auto;
     }
     
     .colone2 {

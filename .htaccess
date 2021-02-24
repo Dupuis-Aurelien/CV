@@ -11,6 +11,8 @@ Header set Feature-Policy "camera 'none'; fullscreen 'self'; geolocation *; micr
 
 </IfModule>
 
+add_header X-Frame-Options sameorigin always;
+
 
 
 # BEGIN Expire headers
