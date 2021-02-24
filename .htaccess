@@ -88,4 +88,7 @@ AddOutType DEFLATE br> AddOutputFilterByType D EFLATE text / plain
 AddOutputFilterByType DEFLATE text /
 
 
-RedirectPermanent https://www.dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html
+
+RewriteCond %{HTTP_HOST} !^dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html$ [NC]
+RewriteRule .? https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html%{REQUEST_URI} [R=301,L]
+
