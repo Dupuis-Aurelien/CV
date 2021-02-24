@@ -88,4 +88,4 @@ AddOutType DEFLATE br> AddOutputFilterByType D EFLATE text / plain
 AddOutputFilterByType DEFLATE text /
 
 
-
+RedirectPermanent https://www.dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html
