@@ -8,7 +8,7 @@
     
     .titre {
         margin-top: 8%;
-        margin-bottom: 1%;
+        margin-bottom: 3%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -22,16 +22,16 @@
     .titre .ampoule,
     .titre .experience,
     .titre .palette {
-        width: 3%;
-        height: 3%;
+        width: 4%;
+        height: auto;
         margin-left: 2%;
         margin-right: 2%;
+        margin-top: -1%;
     }
     
     .titre .rouage,
     .titre .ampoule {
-        width: 4%;
-        height: 4%;
+        width: 5%;
     }
     /* Titre h2 mais pas ceux des modals */
     
@@ -455,22 +455,29 @@
         background-clip: ;
     }
     
-    .raisons2 li {
-        animation: déroulement 8s infinite linear;
-        font-size: 120%;
-        color: #2d6a9e;
+    .raisons2 {
+        margin: auto;
         list-style-type: none;
         padding-top: 3%;
+        color: #2d6a9e;
+        animation: déroulement 6s infinite linear;
+        text-align: center;
+    }
+    
+    .raisons2 li {
+        padding-top: 3%;
+        font-size: 130%;
     }
     
     @keyframes déroulement {
         from {
-            width: 100%;
-            margin-left: 100%;
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.8;
         }
         to {
-            width: 100%;
-            margin-left: -35%;
+            opacity: 1;
         }
     }
     /* derrière */
@@ -620,7 +627,7 @@
     
     .flip-box2 {
         width: 43.8%;
-        height: 16vw;
+        min-height: 16vw;
         perspective: 1000px;
         /* Pour avoir l'effet 3D */
         margin-left: 2%;
@@ -667,11 +674,6 @@
         background-image: url(../image/connaissances/OutilsWeb.jpg);
         background-size: cover;
     }
-    
-    .Informatique {
-        background-image: url(../image/connaissances//OutilsInformatique.jpg);
-        background-size: cover;
-    }
     /* Devant petit rectangle */
     
     .outils {
@@ -701,7 +703,7 @@
         height: 50px;
     }
     /* Dimensions logos */
-    /************************ EXPERIENCES ************************/
+    /************************ EXPERIENCES / REALISATION ************************/
     /*** TITRE ***/
     /*** TEXTE ***/
     
@@ -713,93 +715,14 @@
     #EXPERIENCES li {
         margin-top: 5%;
     }
-    /* Zoom In #2 */
     
-    .site {
-        display: none;
-    }
-    
-    .hover02 figure img {
-        height: auto;
-        width: 35vw;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    
-    .hover02 figure:hover img {
-        width: 38vw;
-    }
-    /*.column {
-        margin: 15px 15px 0;
-        padding: 0;
-    }
-    
-    */
-    
-    .column::after {
-        content: '';
-        clear: both;
-        display: block;
-    }
-    
-    .column:last-child {
-        padding-bottom: 60px;
-    }
-    
-    .column div {
-        position: relative;
-        float: left;
-        width: 30%;
-        height: auto;
-        margin: 0 0 0 25px;
-        padding: 0;
-    }
-    
-    .column div span {
-        position: absolute;
-        bottom: 20px;
-        left: 0;
-        z-index: -10;
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        color: #444;
-        font-size: 18px;
-        text-decoration: none;
-        text-align: center;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        opacity: 0;
-    }
-    
-    figure {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    
-    figure:hover+span {
-        bottom: -9vw;
-        opacity: 1;
-        text-align: center;
-        z-index: 10;
-    }
-    
-    .site img {
-        width: 100%;
-        height: auto;
-    }
-    /************************ REALISATIONS & PASSIONS ************************/
-    /*** TITRE ***/
-    /*** TEXTE ***/
-    
-    #passions p {
+    #EXPERIENCES p {
         text-align: center;
         color: #2d6a9e;
         font-size: 150%;
         margin: auto;
         margin-bottom: 2%;
+        margin-top: 1%;
     }
     /*** BLOCK3 ***/
     
@@ -808,15 +731,14 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        margin: 2% 0%;
     }
-    /* .image:hover .année {
-background-color: rgba(128, 128, 128, 0.6);
-width: 100%;
-height: 100%;
-margin-left: 0%;
-
-}
-*/
+    
+    .block3 figure {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
     /* Gray Scale */
     
     .block3 figure img {
@@ -830,11 +752,14 @@ margin-left: 0%;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
+    
+    .block3 strong {
+        font-size: large;
+    }
     /*** JEUX VIDEO ***/
     
     .JeuxVidéo {
         width: 30%;
-        height: 300px;
     }
     
     .JeuxVidéo img {
@@ -842,11 +767,16 @@ margin-left: 0%;
         height: auto;
         box-shadow: 10px 10px 10px rgb(117, 112, 112);
     }
+    
+    .JeuxVidéo div,
+    .Judo div,
+    .BienfaitsDuSport div {
+        margin: 2% 0%;
+    }
     /*** JUDO ***/
     
     .Judo {
         width: 30%;
-        height: 300px;
         margin-left: 2%;
         margin-right: 2%;
         overflow-y: hidden;
@@ -861,7 +791,6 @@ margin-left: 0%;
     
     .BienfaitsDuSport {
         width: 30%;
-        height: 300px;
     }
     
     .BienfaitsDuSport img {
@@ -884,17 +813,25 @@ margin-left: 0%;
         font-size: small;
         border-radius: 15px;
         border: #a8d3f8 2px solid;
-        background-color: white;
+        background-color: #a8d3f8;
     }
     
     #contact .contacter:hover {
-        background-color: #a8d3f8;
+        background-color: #222f51;
+    }
+    
+    #contact .contacter:hover a {
+        color: white;
     }
     
     #contact .contacter a {
         text-decoration: none;
         color: #222f51;
         font-size: large;
+    }
+    
+    #contact .contacter a:hover {
+        color: #8dcaff;
     }
     
     #contact .sms {
@@ -957,6 +894,20 @@ margin-left: 0%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 5% 0%;
+    }
+    
+    .adresse a,
+    .téléphone a,
+    .mail a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .adresse a:hover,
+    .téléphone a:hover,
+    .mail a:hover {
+        color: #a8d3f8;
     }
     
     .contact .téléphone img {
@@ -1082,7 +1033,7 @@ margin-left: 0%;
         padding: 0;
         opacity: 0;
         transition: all 1.5s ease;
-        list-style: none;
+        list-style: inside;
         margin-bottom: 1%;
         font-size: 130%;
     }
@@ -1246,9 +1197,9 @@ margin-left: 0%;
         margin: auto;
         display: flex;
         justify-content: center;
-        width: 30%;
+        width: 20%;
         padding: 1%;
-        font-size: x-large;
+        font-size: large;
         color: #222f51;
         border: #a8d3f8 2px solid;
         border-radius: 15px;
