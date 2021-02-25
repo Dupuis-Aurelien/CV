@@ -344,7 +344,7 @@
         top: 0px;
         right: 0px;
         z-index: -40;
-        animation: verslagauche 3.5s 1;
+        animation: verslagauche 3s 1;
     }
     
     @keyframes verslagauche {

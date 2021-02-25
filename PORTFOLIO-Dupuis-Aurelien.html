@@ -33,8 +33,8 @@
     <link rel="alternate" href="https://dupuis-aurelien.github.io/CV/PORTFOLIO-Dupuis-Aurelien.html" hreflang="fr-fr" />
 
 
-
 </head>
+
 
 <body>
     <header>
@@ -43,11 +43,11 @@
             <!-- Menu initial-->
             <ul id="menuInitial">
                 <li><a href="#présentation">PRESENTATION</a></li>
-                <li><a href="#formations">FORMATIONS</a></li>
-                <li><a href="#EXPERIENCES">EXPERIENCES PROFESSIONNELLES</a></li>
-                <li><a href="#compétences">COMPETENCES</a></li>
                 <li><a href="#connaissances">CONNAISSANCES</a></li>
+                <li><a href="#compétences">COMPETENCES</a></li>
+                <li><a href="#EXPERIENCES">EXPERIENCES PROFESSIONNELLES</a></li>
                 <li><a href="#passions">REALISATIONS / PASSIONS</a></li>
+                <li><a href="#formations">FORMATIONS</a></li>
             </ul>
 
             <!-- Menu hamburger -->
@@ -63,11 +63,11 @@
                     <!-- Pour faire les 3 traits du hamburger -->
                     <ul id="menu">
                         <li><a href="#présentation">PRESENTATION</a></li>
-                        <li><a href="#formations">FORMATIONS</a></li>
-                        <li><a href="#EXPERIENCES">EXPERIENCES PROFESSIONNELLES</a></li>
-                        <li><a href="#compétences">COMPETENCES</a></li>
                         <li><a href="#connaissances">CONNAISSANCES</a></li>
+                        <li><a href="#compétences">COMPETENCES</a></li>
+                        <li><a href="#EXPERIENCES">EXPERIENCES PROFESSIONNELLES</a></li>
                         <li><a href="#passions">REALISATIONS / PASSIONS</a></li>
+                        <li><a href="#formations">FORMATIONS</a></li>
                     </ul>
                 </div>
             </div>
@@ -105,28 +105,40 @@
         </div>
 
         <div class="photo_de_moi">
-          <img
-            class="Montdidier"
-            src="image/moi/photoMontdidier.png"
-            title="Montdidier"
-            alt="Ombre moi et Montdidier"
-          />
-          <img
-            class="Moi"
-            src="image/moi/photo-aurelien.png"
-            alt="Ombre moi et Moi"
-          />
+         
+          <picture>
+            <source type="image/webp" srcset="image/moi/photoMontdidier.webp">
+            <source type="image/png" srcset="image/moi/photo-aurelien.png">
+                <img
+                class="Montdidier"
+                src="image/moi/photoMontdidier.png"
+                title="Montdidier"
+                alt="Ombre moi et Montdidier"
+              />
+          </picture>
 
-          <img
-            class="Fréjus"
-            src="image/moi/photoFréjus.png"
-            title="Fréjus"
-            alt="Ombre moi et Fréjus"
-          />
+          <picture>
+            <source type="image/webp" srcset="image/moi/photo-aurelien.webp">
+            <source type="image/png" srcset="image/moi/photo-aurelien.png">
+            <img class="Moi" src="image/moi/photo-aurelien.png" alt="Ombre moi et Moi">
+          </picture>
+
+          <picture>
+            <source type="image/webp" srcset="image/moi/photoFréjus.webp">
+            <source type="image/png" srcset="image/moi/photo-aurelien.png">
+                <img
+                class="Fréjus"
+                src="image/moi/photoFréjus.png"
+                title="Fréjus"
+                alt="Ombre moi et Fréjus"
+              />
+          </picture>
+          
         </div>
+
         <div class="Métier">
           <h1 id="auto_text"></h1>
-          <noscript><h1 id="auto_text">Développeur <br> web & web mobile <br> 2021</h1></noscript>
+          <noscript><h1 id="auto_text">Développeur <br> web & web mobile</h1></noscript>
         </div>
     </header>
 
@@ -234,49 +246,6 @@
 
     
 
-        <!------------------------ COMPETENCES ------------------------>
-
-        <section id="compétences">
-            <!-- TITRE -->
-
-            <div class="titre">
-                <img class="rouage" src="image/Séparateur/Rouage.png" alt="Rouage 1" />
-                <h2>
-                    COMPETENCES
-                </h2>
-                <img class="rouage" src="image/Séparateur/Rouage.png" alt="Rouage 2" />
-            </div>
-
-            <!-- BLOCKS -->
-
-            
-            <ul class="center">
-                <li class="liste-1">Développer une application en lien avec une base de données</li>
-                <li class="liste-2">Réaliser une interface utilisateur web statique, adaptable, et dynamique</li>
-                <li class="liste-3">Concevoir et développer la partie front-end et back-end d’une application web ou web mobile</li>
-                <li class="liste-4">Réaliser une interface utilisateur avec une solution de gestion de contenu</li>
-                <li class="liste-5">Concevoir une maquette</li>
-                <li class="liste-6">Analyser les besoins du client</li>
-                <li class="liste-7">Intervenir auprès d’un public</li>
-                <li class="liste-8">Animer une réunion</li>
-            </ul>
-        
-
-            <noscript>
-                <ul class="center">
-                    <li>Développer une application en lien avec une base de données</li>
-                    <li>Réaliser une interface utilisateur web statique, adaptable, et dynamique</li>
-                    <li>Concevoir et développer la partie front-end et back-end d’une application web ou web mobile</li>
-                    <li>Réaliser une interface utilisateur avec une solution de gestion de contenu</li>
-                    <li>Concevoir une maquette</li>
-                    <li>Analyser les besoins du client</li>
-                    <li>Intervenir auprès d’un public</li>
-                    <li>Animer une réunion</li>
-                </ul>
-            </noscript>
-
-        </section>
-
         <!------------------------ CONNAISSANCES ------------------------>
 
         <section id="connaissances">
@@ -373,6 +342,50 @@
         </div>
         </section>
 
+
+        <!------------------------ COMPETENCES ------------------------>
+
+        <section id="compétences">
+            <!-- TITRE -->
+
+            <div class="titre">
+                <img class="rouage" src="image/Séparateur/Rouage.png" alt="Rouage 1" />
+                <h2>
+                    COMPETENCES
+                </h2>
+                <img class="rouage" src="image/Séparateur/Rouage.png" alt="Rouage 2" />
+            </div>
+
+            <!-- BLOCKS -->
+
+
+            <ul class="center">
+                <li class="liste-1">Développer une application en lien avec une base de données</li>
+                <li class="liste-2">Réaliser une interface utilisateur web statique, adaptable, et dynamique</li>
+                <li class="liste-3">Concevoir et développer la partie front-end et back-end d’une application web ou web mobile</li>
+                <li class="liste-4">Réaliser une interface utilisateur avec une solution de gestion de contenu</li>
+                <li class="liste-5">Concevoir une maquette</li>
+                <li class="liste-6">Analyser les besoins du client</li>
+                <li class="liste-7">Intervenir auprès d’un public</li>
+                <li class="liste-8">Animer une réunion</li>
+            </ul>
+
+
+            <noscript>
+                <ul class="center">
+                    <li>Développer une application en lien avec une base de données</li>
+                    <li>Réaliser une interface utilisateur web statique, adaptable, et dynamique</li>
+                    <li>Concevoir et développer la partie front-end et back-end d’une application web ou web mobile</li>
+                    <li>Réaliser une interface utilisateur avec une solution de gestion de contenu</li>
+                    <li>Concevoir une maquette</li>
+                    <li>Analyser les besoins du client</li>
+                    <li>Intervenir auprès d’un public</li>
+                    <li>Animer une réunion</li>
+                </ul>
+            </noscript>
+
+        </section>
+
         <!------------------------ EXPERIENCES ------------------------>
 
         <section id="EXPERIENCES">
@@ -452,6 +465,54 @@
             </div>
 
         </section>
+
+
+
+        <!------------------------ REALISATIONS ET PASSIONS ------------------------>
+
+        <section id="passions">
+            <!-- TITRE -->
+            <div class="titre ">
+                <img class="palette " src="image/Séparateur/Palette-Peintre.png " loading="lazy" alt="Palette de couleur 1" />
+                <h2>
+                    REALISATIONS & PASSIONS
+                </h2>
+                <img class="palette " src="image/Séparateur/Palette-Peintre.png " loading="lazy" alt="Palette de couleur 2" />
+            </div>
+
+            <p class="center">
+                Voici 3 réalisations d'interfaces web statiques et adaptables basées sur mes passions (HTML - CSS - BOOTSTRAP)
+            </p>
+
+
+            <div class="block3">
+                <div class="JeuxVidéo">
+                    <figure>
+                        <a target="_blank " rel="noopener noreferrer " href="passions/html/JeuxVidéo-ogame.html ">
+                            <img src="image/réalisations-et-passions/JeuxVidéo.jpg " title="Clique pour voir le site" loading="lazy" alt="Jeux Vidéo " /></a>
+                    </figure>
+
+                </div>
+                <div class="Judo">
+                    <figure>
+                        <a target="_blank " rel="noopener noreferrer " href="passions/html/Judo.html ">
+                            <img src="image/réalisations-et-passions/Judo.jpg " title="Clique pour voir le site" loading="lazy" alt="Judo " /></a>
+                    </figure>
+                </div>
+                <div class="BienfaitsDuSport">
+                    <figure>
+                        <a target="_blank " rel="noopener noreferrer " href="passions/html/LesBienfaitsDuSport.html ">
+                            <img src="image/réalisations-et-passions/BienfaitsDuSport.jpg " title="Clique pour voir le site" loading="lazy" alt="Bienfaits du sport " /></a>
+                    </figure>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
 
         <!------------------------ FORMATIONS------------------------>
 
@@ -545,56 +606,14 @@
             <a class="ouverture2" href="#oModal2">> Ma vie antérieure</a>
         </section>
 
-        <!------------------------ REALISATIONS ET PASSIONS ------------------------>
-
-        <section id="passions">
-            <!-- TITRE -->
-            <div class="titre ">
-                <img class="palette " src="image/Séparateur/Palette-Peintre.png " loading="lazy" alt="Palette de couleur 1" />
-                <h2>
-                    REALISATIONS & PASSIONS
-                </h2>
-                <img class="palette " src="image/Séparateur/Palette-Peintre.png " loading="lazy" alt="Palette de couleur 2" />
+        <div class="flex">
+            <div class="contacter">
+                <a href="mailto:dupuis.aurelien.eps@outlook.fr ">Contacter par EMAIL</a>
             </div>
-
-            <p class="center">
-                Voici 3 réalisations d'interfaces web statiques et adaptables basées sur mes passions (HTML - CSS - BOOTSTRAP)
-            </p>
-
-
-            <div class="block3">
-                <div class="JeuxVidéo">
-                    <figure>
-                        <a target="_blank " rel="noopener noreferrer " href="passions/html/JeuxVidéo-ogame.html ">
-                            <img src="image/réalisations-et-passions/JeuxVidéo.jpg " title="Clique pour voir le site" loading="lazy" alt="Jeux Vidéo " /></a>
-                    </figure>
-
-                </div>
-                <div class="Judo">
-                    <figure>
-                        <a target="_blank " rel="noopener noreferrer " href="passions/html/Judo.html ">
-                            <img src="image/réalisations-et-passions/Judo.jpg " title="Clique pour voir le site" loading="lazy" alt="Judo " /></a>
-                    </figure>
-                </div>
-                <div class="BienfaitsDuSport">
-                    <figure>
-                        <a target="_blank " rel="noopener noreferrer " href="passions/html/LesBienfaitsDuSport.html ">
-                            <img src="image/réalisations-et-passions/BienfaitsDuSport.jpg " title="Clique pour voir le site" loading="lazy" alt="Bienfaits du sport " /></a>
-                    </figure>
-                </div>
+            <div class="contacter sms">
+                <a href="sms:0674151416 ">Contacter par SMS</a>
             </div>
-
-
-            <div class="flex">
-                <div class="contacter">
-                    <a href="mailto:dupuis.aurelien.eps@outlook.fr ">Contacter par EMAIL</a>
-                </div>
-                <div class="contacter sms">
-                    <a href="sms:0674151416 ">Contacter par SMS</a>
-                </div>
-            </div>
-        </section>
-
+        </div>
 
         <!------------------------ FOOTER ------------------------>
         <footer>
