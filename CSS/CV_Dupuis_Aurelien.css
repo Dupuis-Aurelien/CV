@@ -42,8 +42,8 @@
         margin: 0;
         letter-spacing: 2px;
         background: linear-gradient(to right, #222f51, #8dcaff);
-        background-clip: text;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     /*****************************HEADER**********************/
@@ -514,19 +514,19 @@
     }
     
     .DevWeb .image {
-        background-image: url(../image/formations/ChateauFréjus.webp), url(../image/formations/ChateauFréjus.jpg);
+        background-image: url(../image/formations/ChateauFréjus.jpg);
     }
     
     .MNS .image {
-        background-image: url(../image/formations/FormationSud.webp), url(../image/formations/FormationSud.jpg);
+        background-image: url(../image/formations/FormationSud.jpg);
     }
     
     .EPS .image {
-        background-image: url(../image/formations/JulesVerne.webp), url(../image/formations/JulesVerne.jpg);
+        background-image: url(../image/formations/JulesVerne.jpg);
     }
     
     .BAC .image {
-        background-image: url(../image/formations/LycéeMontdidier.webp), url(../image/formations/LycéeMontdidier.jpg);
+        background-image: url(../image/formations/LycéeMontdidier.jpg);
     }
     /*** Rectangle gris et Année ***/
     
