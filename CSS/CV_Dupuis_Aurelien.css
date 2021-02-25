@@ -871,7 +871,7 @@ margin-left: 0%;
     }
     /*** BOUTON ***/
     
-    #passions .contacter {
+    #contact .contacter {
         text-align: center;
         text-decoration: none;
         margin: auto;
@@ -887,17 +887,17 @@ margin-left: 0%;
         background-color: white;
     }
     
-    #passions .contacter:hover {
+    #contact .contacter:hover {
         background-color: #a8d3f8;
     }
     
-    #passions .contacter a {
+    #contact .contacter a {
         text-decoration: none;
         color: #222f51;
         font-size: large;
     }
     
-    #passions .sms {
+    #contact .sms {
         display: none;
     }
     /************************ FOOTER ************************/
