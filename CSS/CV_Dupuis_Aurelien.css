@@ -2,6 +2,7 @@
     
     body {
         font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
         overflow-x: hidden;
     }
     /* La div avec les titres h2 et les petites icones */
