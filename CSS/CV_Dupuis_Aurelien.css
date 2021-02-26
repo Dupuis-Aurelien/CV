@@ -1036,7 +1036,17 @@
         transition: all 1.5s ease;
         list-style: inside;
         margin-bottom: 1%;
-        font-size: 130%;
+        font-size: 120%;
+    }
+    
+    .listes-2 {
+        display: none;
+        margin-right: 8%;
+    }
+    
+    .listes-2 li {
+        margin-bottom: 4%;
+        font-size: 100%;
     }
     /* 
     *

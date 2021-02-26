@@ -390,6 +390,12 @@
         flex-direction: column;
         margin-left: 30%;
     }
+    .listes-1 {
+        display: none;
+    }
+    .listes-2 {
+        display: block;
+    }
     .block4 {
         flex-direction: column;
     }
