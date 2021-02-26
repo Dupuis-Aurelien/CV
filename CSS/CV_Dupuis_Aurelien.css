@@ -457,9 +457,8 @@
     }
     
     .raisons2 {
-        margin: auto;
         list-style-type: none;
-        padding-top: 3%;
+        padding: 3% 0%;
         color: #2d6a9e;
         animation: déroulement 6s infinite linear;
         text-align: center;
