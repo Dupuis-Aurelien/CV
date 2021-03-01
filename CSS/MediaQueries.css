@@ -196,9 +196,6 @@
     .DroiteRaisons {
         margin-left: 5%;
     }
-    .GaucheQui {
-        font-size: 120%;
-    }
     /* Devant */
     .raisons {
         height: 260px;
@@ -216,7 +213,7 @@
     }
     /*** BLOCK4 ***/
     .block4a {
-        width: 70%;
+        /*width: 70%;*/
     }
     .block4b {
         width: 30%;
@@ -402,7 +399,6 @@
     .block4a {
         flex-direction: column;
         padding-left: 20%;
-        width: 100%;
         text-align: start;
     }
     .information {

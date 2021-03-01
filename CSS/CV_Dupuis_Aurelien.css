@@ -101,6 +101,20 @@
     li a:hover {
         color: #8dcaff;
     }
+    
+    li a::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 0;
+        transition: 0.3s;
+        background-color: #222f51;
+    }
+    
+    li a:hover::after {
+        width: 100%;
+        transition: 0.3s;
+    }
     /*** Image Logo DUPUIS AURELIEN ***/
     
     .Logo {
@@ -437,7 +451,6 @@
     /* Texte de présentation */
     
     .GaucheQui {
-        font-size: 160%;
         width: 55%;
         margin-right: 5%;
     }
@@ -483,7 +496,7 @@
     /* derrière */
     
     .qualités {
-        border-top: 50px solid #8dcaff;
+        border-top: 30px solid #8dcaff;
         box-shadow: 2px 2px 20px darkgray;
         -webkit-box-shadow: 2px 2px 20px darkgray;
         font-size: 120%;
@@ -719,7 +732,6 @@
     #EXPERIENCES p {
         text-align: center;
         color: #2d6a9e;
-        font-size: 150%;
         margin: auto;
         margin-bottom: 2%;
         margin-top: 1%;
