@@ -213,7 +213,7 @@
     }
     /*** BLOCK4 ***/
     .block4a {
-        /*width: 70%;*/
+        width: 70%;
     }
     .block4b {
         width: 30%;
@@ -398,12 +398,11 @@
     }
     .block4a {
         flex-direction: column;
-        padding-left: 20%;
-        text-align: start;
+        text-align: center;
+        width: 85%;
     }
     .information {
         width: 100%;
-        padding-left: 20%;
     }
     .ouverture2 {
         display: none;
@@ -504,11 +503,11 @@
         width: 80%;
     }
     .block4a {
-        padding-left: 10%;
+        margin-left: 10%;
         margin-right: 3%;
     }
     .information {
-        padding-left: 10%;
+        margin-left: 10%;
     }
     .contact {
         width: 90%;
@@ -521,6 +520,9 @@
     }
     .block4 h4 {
         font-size: 70%;
+    }
+    address {
+        margin-left: 1%;
     }
 }
 
@@ -555,7 +557,7 @@
         margin-top: -20%;
     }
     .information {
-        padding-left: 5%;
+        margin-left: 5%;
     }
     #R_et_P .contacter {
         width: 60%;
