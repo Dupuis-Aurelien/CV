@@ -746,6 +746,11 @@
         margin: 2% 0%;
     }
     
+    .block3 a {
+        min-height: 50px;
+        display: inline-block;
+    }
+    
     .block3 figure {
         margin: 0;
         padding: 0;
@@ -974,6 +979,11 @@
     .CV .documents .pdf {
         width: 70px;
         height: 70px;
+    }
+    
+    .documents a {
+        min-height: 50px;
+        display: inline-block;
     }
     /*** Colone 4 ***/
     
