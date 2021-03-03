@@ -428,7 +428,7 @@
         position: relative;
     }
     
-    #auto_text {
+    h1 {
         padding-top: 10px;
         padding-bottom: 10px;
         z-index: 330;
