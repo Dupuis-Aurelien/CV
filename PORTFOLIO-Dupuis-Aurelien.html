@@ -63,7 +63,7 @@
                     <span></span>
                     <span></span>
                     <picture>
-                        <source type="image/png" srcset="image/moi/logo.png 320w, image/moi/logo3.png">
+                        <source media="(max-width: 320px)" type="image/png" srcset="image/moi/logo.png">
                         <img src="image/moi/logo3.png" alt="Logo moi" />
                     </picture>
                     <!-- Pour faire les 3 traits du hamburger -->
@@ -112,8 +112,10 @@
         <div class="photo_de_moi">
          
           <picture>
-            <source type="image/webp" srcset="image/moi/photoMontdidier2.webp 768w, image/moi/photoMontdidier.webp">
-            <source type="image/png" srcset="image/moi/photoMontdidier2.png 768w, image/moi/photo-aurelien.png">
+            <source media="(max-width: 768px)" type="image/webp" srcset="image/moi/photoMontdidier2.webp">
+                <source media="(min-width: 768px)" type="image/webp" srcset="image/moi/photoMontdidier.webp">
+            <source media="(max-width: 768px)" type="image/png" srcset="image/moi/photoMontdidier2.png">
+                <source media="(min-width: 768px)" type="image/png" srcset="image/moi/photoMontdidier.png">
                 <img
                 class="Montdidier"
                 src="image/moi/photoMontdidier.png"
@@ -214,7 +216,7 @@
           <p class="bold p-top-2">A propos</p>
         </div>
       </header>
-      <section class="éléments">
+      <div class="éléments">
         <div class="colone1et2">
           <div class="colone1">
             <p>Né le :</p>
@@ -239,7 +241,7 @@
             <p>En recherche</p>
           </div>
         </div>
-      </section>
+    </div>
       <footer class="cf">
         <a href="#fermer" class="btn" title="Fermer la fenêtre"
           >Fermer</a
@@ -602,7 +604,7 @@
         </div>
                             
                     </header>
-                    <section class="éléments2">
+                    <div class="éléments2">
                         <p><b>2018-2019 :</b> <u>Maitre Nageur Sauveteur et Coach sportif</u>, SPA de Saint Endreol, La Motte (83)</p>
 
                         <p><b>2017-2018 :</b> <u>Maitre Nageur Sauveteur</u>, Piscine AQUAVABRE, Brignoles (83)</p>
@@ -610,7 +612,7 @@
                         <p><b>2015 :</b> <u>Professeur d'EPS </u>, Collège Compère Morel, Breteuil (60)</p>
 
                         <p><b>2010-2016 :</b> <u>Surveillant de baignade :</u><br> Piscine Vert Marine, Breteuil (60) ; <br> Centre Aquatique Almeo, Moreuil (80) ; <br> Piscine Alex Gobin, Montdidier (80) ; <br> Camping Le Fleutron, Divonne Les Bains (01)</p>
-                    </section>
+                    </div>
                     <footer class="cf2">
                         <a href="#fermer2" class="btn2" title="Fermer la fenêtre">Fermer</a>
                                 </footer>
@@ -624,7 +626,7 @@
                 <a class="ouverture2" href="#oModal2">> Ma vie antérieure</a>
         </section>
 
-        <section id="contact">
+        <div id="contact">
             <div class="flex">
                 <div class="contacter">
                     <a href="mailto:dupuis.aurelien.eps@outlook.fr ">Contacter par EMAIL</a>
@@ -633,7 +635,7 @@
                     <a href="sms:0674151416 ">Contacter par SMS</a>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!-- FOOTER -->
 
