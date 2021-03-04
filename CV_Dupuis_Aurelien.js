@@ -19,7 +19,7 @@
     }
 
     var i = -1; // On incremente i en debut de fonction, il vaudra donc 0 a la premiere execution.
-    var message = "Développeur \nweb & web mobile"; // Message a afficher, on utilise le caractere \n pour le retour a la ligne.
+    var message = "\nweb & web mobile"; // Message a afficher, on utilise le caractere \n pour le retour a la ligne.
     var interval = setInterval(extraire, 120); // On declanche le timer et on le garde dans une variable pour l'arreter plus tard.
 
 })();
