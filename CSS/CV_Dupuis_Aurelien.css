@@ -644,6 +644,7 @@
     
     .test78 img {
         height: 4vw;
+        min-height: 50px;
     }
     
     .Langages,

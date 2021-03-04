@@ -512,11 +512,14 @@
         address {
             margin-left: 1%;
         }
+        .test78 a {
+            padding: 2%;
+        }
         .Langages img {
-            height: 8vw;
+            height: 9vw;
         }
         .outils img {
-            height: 6vw;
+            height: 7vw;
         }
     }
     /* <320 */
@@ -555,9 +558,9 @@
             width: 60%;
         }
         .Langages img {
-            height: 9vw;
+            height: 10vw;
         }
         .outils img {
-            height: 7vw;
+            height: 8vw;
         }
     }
