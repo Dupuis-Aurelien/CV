@@ -512,6 +512,12 @@
         address {
             margin-left: 1%;
         }
+        .Langages img {
+            height: 8vw;
+        }
+        .outils img {
+            height: 6vw;
+        }
     }
     /* <320 */
     
@@ -547,5 +553,11 @@
         }
         #R_et_P .contacter {
             width: 60%;
+        }
+        .Langages img {
+            height: 9vw;
+        }
+        .outils img {
+            height: 7vw;
         }
     }
