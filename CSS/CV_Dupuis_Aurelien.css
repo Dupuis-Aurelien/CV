@@ -4,6 +4,7 @@
         font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         overflow-x: hidden;
+        margin: 0%;
     }
     /* La div avec les titres h2 et les petites icones */
     
@@ -23,16 +24,11 @@
     .titre .ampoule,
     .titre .experience,
     .titre .palette {
-        width: 4%;
-        height: auto;
+        width: 4vw;
+        height: 4vw;
         margin-left: 2%;
         margin-right: 2%;
         margin-top: -1%;
-    }
-    
-    .titre .rouage,
-    .titre .ampoule {
-        width: 5%;
     }
     /* Titre h2 mais pas ceux des modals */
     
@@ -568,7 +564,10 @@
     /*** VIE (voir MODAL2) ***/
     /*-VFW_Dl8]NVz*Y4H*/
     /************************ COMPETENCES ************************/
-    /*** TITRE ***/
+    
+    #compétences {
+        margin: 5%;
+    }
     /* T_H = Techniques et Humaines */
     
     .T_H {
@@ -917,13 +916,13 @@
     
     .CV .documents .word {
         width: auto;
-        height: 55px;
-        margin-right: 10%;
+        height: 50px;
+        margin-right: 2vw;
     }
     
     .CV .documents .pdf {
-        width: 70px;
-        height: 70px;
+        width: auto;
+        height: 50px;
     }
     
     .documents a {
@@ -943,27 +942,19 @@
         justify-content: center;
     }
     
-    .RESEAUX .sociaux .github {
-        width: 45px;
-        height: 45px;
+    .RESEAUX .sociaux .github,
+    .RESEAUX .sociaux .linkedIn {
+        width: auto;
+        height: 50px;
     }
     
     .RESEAUX .sociaux .image1 {
         margin-right: 15%;
     }
     
-    .RESEAUX .sociaux .github:hover {
-        width: 60px;
-        height: 60px;
-    }
-    
-    .RESEAUX .sociaux .linkedIn {
-        width: 40px;
-        height: 40px;
-    }
-    
+    .RESEAUX .sociaux .github:hover,
     .RESEAUX .sociaux .linkedIn:hover {
-        width: 60px;
+        width: auto;
         height: 60px;
     }
     /*** Copyright et droit ***/

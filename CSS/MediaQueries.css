@@ -136,6 +136,10 @@
         footer {
             padding: 1% 0.8% 0%;
         }
+        .Langages,
+        .outils {
+            margin-top: 6%;
+        }
     }
     /* <1024 */
     
@@ -218,7 +222,7 @@
             width: 100%;
         }
         .Langages img {
-            height: 5vw;
+            height: 6vw;
         }
         .outils img {
             height: 3vw;
@@ -291,6 +295,10 @@
             width: 100%;
             margin: auto;
         }
+        .Langages,
+        .outils {
+            margin-top: 8%;
+        }
     }
     /* <768 */
     
@@ -300,6 +308,9 @@
         header .Fréjus {
             width: 20vw;
             margin-bottom: 0%;
+        }
+        .titre {
+            margin-top: 13%;
         }
         #menuDéroulant {
             display: block;
@@ -375,7 +386,7 @@
             margin-left: 30%;
         }
         .Langages img {
-            height: 6vw;
+            height: 7vw;
         }
         .outils img {
             height: 4vw;
@@ -417,6 +428,10 @@
         #contact .sms {
             display: block;
         }
+        .Langages,
+        .outils {
+            margin-top: 10%;
+        }
     }
     /* <479 */
     
@@ -427,7 +442,7 @@
             width: 25vw;
         }
         .titre {
-            margin-top: 12%;
+            margin-top: 15%;
         }
         #menuDéroulant {
             display: block;
@@ -516,10 +531,14 @@
             padding: 2%;
         }
         .Langages img {
-            height: 9vw;
+            height: 10vw;
         }
         .outils img {
-            height: 7vw;
+            height: 6.5vw;
+        }
+        .Langages,
+        .outils {
+            margin-top: 14%;
         }
     }
     /* <320 */
@@ -539,7 +558,7 @@
             margin-bottom: -1%;
         }
         .titre {
-            margin-top: 20%;
+            margin-top: 25%;
         }
         .DroiteRaisons {
             width: 85%;
@@ -558,9 +577,9 @@
             width: 60%;
         }
         .Langages img {
-            height: 10vw;
+            height: 11vw;
         }
         .outils img {
-            height: 8vw;
+            height: 7.5vw;
         }
     }
