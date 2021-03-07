@@ -962,6 +962,11 @@
         margin-left: 1%;
     }
     
+    .C_et_D p {
+        margin-bottom: 0%;
+        padding-bottom: 1%;
+    }
+    
     .flex {
         display: flex;
     }
