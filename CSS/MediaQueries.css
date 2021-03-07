@@ -294,6 +294,7 @@
         .BienfaitsDuSport {
             width: 100%;
             margin: auto;
+            margin-bottom: 7%;
         }
         .Langages,
         .outils {
@@ -532,7 +533,7 @@
             height: 10vw;
         }
         .outils img {
-            height: 6.5vw;
+            height: 6vw;
         }
         .Langages,
         .outils {
@@ -578,6 +579,6 @@
             height: 11vw;
         }
         .outils img {
-            height: 7.5vw;
+            height: 7vw;
         }
     }

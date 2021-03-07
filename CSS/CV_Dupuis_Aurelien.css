@@ -145,11 +145,6 @@
     /****** Menu de droite fixed **********/
     /* Visuel de base */
     
-    .testtest {
-        position: fixed;
-        right: 0;
-    }
-    
     .TéléchargerHeader,
     .TelHeader,
     .MailHeader,
@@ -261,8 +256,8 @@
     
     #menuDéroulant {
         position: relative;
-        top: 40px;
-        left: 40px;
+        top: 50px;
+        left: 50px;
         display: none;
     }
     /* Mon logo Dupuis Aurélien */
@@ -316,6 +311,32 @@
         background: #222f51;
         border-radius: 3px;
         z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    /* Transformation des spans */
+    
+    #menuDéroulant span:first-child {
+        transform-origin: 0% 0%;
+    }
+    
+    #menuDéroulant span:nth-last-child(3) {
+        transform-origin: 0% 100%;
+    }
+    
+    #menuDéroulant input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+    
+    #menuDéroulant input:checked~span:nth-last-child(4) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    
+    #menuDéroulant input:checked~span:nth-last-child(3) {
+        transform: rotate(-45deg) translate(0, -1px);
     }
     /* Menu arrivant du hamburger */
     
@@ -324,7 +345,6 @@
         height: 240px;
         margin: -50px 0 0 -50px;
         padding: 10px;
-        border-radius: 0px 50px 50px 0;
         background: rgba(181, 216, 246, 0.95);
         transform-origin: 0% 0%;
         transform: translate(-105%, 0);
@@ -450,6 +470,7 @@
     .GaucheQui {
         width: 55%;
         margin-right: 5%;
+        padding: 3%;
     }
     /* Les raisons de me choisir */
     
@@ -492,10 +513,12 @@
     /* derrière */
     
     .qualités {
-        border-top: 30px solid #8dcaff;
         box-shadow: 2px 2px 20px darkgray;
         -webkit-box-shadow: 2px 2px 20px darkgray;
         font-size: 120%;
+        background: linear-gradient( to right, #222f51, #8dcaff, #555, #fff, #fff, #555, #8dcaff, #222f51) no-repeat top, linear-gradient( to right, #222f51, #8dcaff, #555, #fff, #fff, #555, #8dcaff, #222f51) no-repeat bottom white;
+        background-size: 100% 10px;
+        padding: 2%;
     }
     /*********************A propos (voir CSS MODAL1)***********************/
     /****************** FORMATIONS **********************/
@@ -632,17 +655,17 @@
         margin: 5%;
     }
     
-    .test78 {
+    .block-connaissance {
         margin: auto;
         text-align: center;
     }
     
-    .test78 a {
+    .block-connaissance a {
         display: inline-block;
         padding: 1%;
     }
     
-    .test78 img {
+    .block-connaissance img {
         height: 4vw;
         min-height: 50px;
     }
@@ -723,6 +746,7 @@
     
     .JeuxVidéo {
         width: 30%;
+        margin-bottom: 3%;
     }
     
     .JeuxVidéo img {
