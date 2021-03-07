@@ -311,6 +311,7 @@
         }
         .titre {
             margin-top: 13%;
+            padding-top: 1.5vh;
         }
         #menuDéroulant {
             display: block;
